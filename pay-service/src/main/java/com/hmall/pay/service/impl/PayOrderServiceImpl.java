@@ -8,7 +8,6 @@ import com.baomidou.mybatisplus.extension.toolkit.Db;
 import com.hmall.api.client.CartClient;
 import com.hmall.api.client.TradeClient;
 import com.hmall.api.client.UserClient;
-import com.hmall.api.dto.CartFormDTO;
 import com.hmall.api.dto.OrderDetail;
 import com.hmall.api.dto.PayOrderDTO;
 import com.hmall.common.exception.BizIllegalException;
