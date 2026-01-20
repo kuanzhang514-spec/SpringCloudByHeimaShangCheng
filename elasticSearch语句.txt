@@ -1,0 +1,47 @@
+1.创建搜索的索引库--------------------------------------------------------
+PUT /items
+{
+  "mappings": {
+    "properties": {
+      "id": {
+        "type": "keyword"
+      },
+      "name":{
+        "type": "text",
+        "analyzer": "ik_max_word"
+      },
+      "price":{
+        "type": "integer"
+      },
+      "stock":{
+        "type": "integer"
+      },
+      "image":{
+        "type": "keyword",
+        "index": false
+      },
+      "category":{
+        "type": "keyword"
+      },
+      "brand":{
+        "type": "keyword"
+      },
+      "sold":{
+        "type": "integer"
+      },
+      "commentCount":{
+        "type": "integer",
+        "index": false
+      },
+      "isAD":{
+        "type": "boolean"
+      },
+      "updateTime":{
+        "type": "date"
+      }
+    }
+  }
+}
+
+2.--------------------------------------------------------
+

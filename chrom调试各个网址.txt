@@ -1,0 +1,14 @@
+http://localhost:18080/login.html     项目前端
+
+SWAGGER：
+http://localhost:8081/doc.html        商品微服务
+http://localhost:8082/doc.html        购物车微服务
+http://localhost:8083/doc.html        用户微服务
+http://localhost:8084/doc.html        订单微服务
+http://localhost:8085/doc.html        支付微服务
+http://192.168.100.130:8848/nacos   nacos控制台
+http://192.168.100.130:8090              sentinel控制台
+http://192.168.100.130:15672/          RabbitMQ 控制台
+http://192.168.100.130:9200/    http://192.168.100.130:5601/app/dev_tools#/console    elasticSearch工具
+
+

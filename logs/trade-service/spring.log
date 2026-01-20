@@ -1,0 +1,1157 @@
+22:41:21:117  INFO 7004 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 17 on zhangkuan with PID 7004 (D:\java\springCloudLearn\newnewnewnewnewnew\hmall\trade-service\target\classes started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall)
+22:41:21:123 DEBUG 7004 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:41:21:125  INFO 7004 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+22:41:24:238  INFO 7004 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1d8668a3-7baf-359d-831a-2f8b01e39e6f
+22:41:25:332  INFO 7004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+22:41:25:350  INFO 7004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:41:25:351  INFO 7004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:41:25:591  INFO 7004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:41:25:591  INFO 7004 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4272 ms
+22:41:26:994  INFO 7004 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+22:41:27:526  INFO 7004 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'pay-service' URL not provided. Will try picking an instance via load-balancing.
+22:41:27:980  INFO 7004 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+22:41:29:865  INFO 7004 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:41:29:970  INFO 7004 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:41:31:324  INFO 7004 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:41:32:135  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 97102e21-d191-4376-8e6d-dc835452c5ac
+22:41:32:264  INFO 7004 --- [main] org.reflections.Reflections              : Reflections took 65 ms to scan 1 urls, producing 3 keys and 6 values 
+22:41:32:361  INFO 7004 --- [main] org.reflections.Reflections              : Reflections took 23 ms to scan 1 urls, producing 4 keys and 9 values 
+22:41:32:386  INFO 7004 --- [main] org.reflections.Reflections              : Reflections took 17 ms to scan 1 urls, producing 3 keys and 10 values 
+22:41:32:392  WARN 7004 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22:41:32:411  INFO 7004 --- [main] org.reflections.Reflections              : Reflections took 19 ms to scan 1 urls, producing 1 keys and 5 values 
+22:41:32:459  INFO 7004 --- [main] org.reflections.Reflections              : Reflections took 44 ms to scan 1 urls, producing 1 keys and 7 values 
+22:41:32:486  INFO 7004 --- [main] org.reflections.Reflections              : Reflections took 21 ms to scan 1 urls, producing 2 keys and 8 values 
+22:41:32:489  WARN 7004 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22:41:32:491  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] RpcClient init label, labels = {module=naming, source=sdk}
+22:41:32:494  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+22:41:32:494  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+22:41:32:495  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+22:41:32:497  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+22:41:34:121  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755787293934_192.168.100.2_59238
+22:41:34:123  INFO 7004 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Notify connected event to listeners.
+22:41:34:124  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+22:41:34:125  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1192/0x00000008013bf9f8
+22:41:34:869 ERROR 7004 --- [main] com.alibaba.nacos.common.remote.client   : Connection is unregistered, switch server, connectionId = 1755787293934_192.168.100.2_59238, request = SubscribeServiceRequest
+22:41:34:870  INFO 7004 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+22:41:35:026 ERROR 7004 --- [main] com.alibaba.nacos.common.remote.client   : Send request fail, request = SubscribeServiceRequest{headers={}, requestId='null'}, retryTimes = 0, errorMessage = Connection is unregistered.
+22:41:35:144 ERROR 7004 --- [main] com.alibaba.nacos.common.remote.client   : Send request fail, request = SubscribeServiceRequest{headers={}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:UNHEALTHY
+22:41:35:228  INFO 7004 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Success to connect a server [192.168.100.130:8848], connectionId = 1755787295204_192.168.100.2_59239
+22:41:35:230  INFO 7004 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Abandon prev connection, server is 192.168.100.130:8848, connectionId is 1755787293934_192.168.100.2_59238
+22:41:35:230  INFO 7004 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1755787293934_192.168.100.2_59238
+22:41:35:238  INFO 7004 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Notify disconnected event to listeners
+22:41:35:239  INFO 7004 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Notify connected event to listeners.
+22:41:35:248  WARN 7004 --- [nacos-grpc-client-executor-11] c.a.n.c.remote.client.grpc.GrpcClient    : [1755787293934_192.168.100.2_59238]Ignore error event,isRunning:true,isAbandon=true
+22:41:35:263 ERROR 7004 --- [main] com.alibaba.nacos.common.remote.client   : Send request fail, request = SubscribeServiceRequest{headers={}, requestId='null'}, retryTimes = 2, errorMessage = Client not connected, current status:UNHEALTHY
+22:41:35:264 ERROR 7004 --- [com.alibaba.nacos.client.naming.updater.0] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={app=unknown}, requestId='null'}, retryTimes = 0, errorMessage = Client not connected, current status:UNHEALTHY
+22:41:35:270 ERROR 7004 --- [main] c.a.cloud.nacos.discovery.NacosWatch     : namingService subscribe failed, properties:NacosDiscoveryProperties{serverAddr='192.168.100.130:8848', username='', password='', endpoint='', namespace='', watchDelay=30000, logName='', service='trade-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.1.7', networkInterface='', port=-1, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, instanceEnabled=true, ephemeral=true, failureToleranceEnabled=false}, ipDeleteTimeout=null, failFast=true}
+
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:290) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:230) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:215) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:393) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:132) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.27.jar:5.3.27]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:UNHEALTHY
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:650) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280) ~[nacos-client-2.0.4.jar:na]
+	... 20 common frames omitted
+
+22:41:35:294  INFO 7004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+22:41:35:377 ERROR 7004 --- [com.alibaba.nacos.client.naming.updater.0] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={app=unknown}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:UNHEALTHY
+22:41:35:402 ERROR 7004 --- [main] com.alibaba.nacos.common.remote.client   : Send request fail, request = InstanceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 0, errorMessage = Client not connected, current status:UNHEALTHY
+22:41:35:486 ERROR 7004 --- [com.alibaba.nacos.client.naming.updater.0] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={app=unknown}, requestId='null'}, retryTimes = 2, errorMessage = Client not connected, current status:UNHEALTHY
+22:41:35:504 ERROR 7004 --- [main] com.alibaba.nacos.common.remote.client   : Send request fail, request = InstanceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:UNHEALTHY
+22:41:35:614 ERROR 7004 --- [main] com.alibaba.nacos.common.remote.client   : Send request fail, request = InstanceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 2, errorMessage = Client not connected, current status:UNHEALTHY
+22:41:35:614 ERROR 7004 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, trade-service register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='192.168.100.130:8848', username='', password='', endpoint='', namespace='', watchDelay=30000, logName='', service='trade-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.1.7', networkInterface='', port=8084, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, instanceEnabled=true, ephemeral=true, failureToleranceEnabled=false}, ipDeleteTimeout=null, failFast=true}},
+
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:290) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doRegisterService(NamingGrpcClientProxy.java:129) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.registerService(NamingGrpcClientProxy.java:115) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.registerService(NamingClientProxyDelegate.java:94) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:145) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:232) ~[spring-cloud-commons-3.1.3.jar:3.1.3]
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:133) ~[spring-cloud-commons-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:98) ~[spring-cloud-commons-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:86) ~[spring-cloud-commons-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) ~[spring-cloud-commons-3.1.3.jar:3.1.3]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.27.jar:5.3.27]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:UNHEALTHY
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:650) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280) ~[nacos-client-2.0.4.jar:na]
+	... 32 common frames omitted
+
+22:41:35:615  WARN 7004 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+22:41:35:754  INFO 7004 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [97102e21-d191-4376-8e6d-dc835452c5ac] Server check success, currentServer is 192.168.100.130:8848 
+22:41:36:278  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+22:41:36:280  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@21f0cc97[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+22:41:36:280  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : Close current connection 1755787295204_192.168.100.2_59239
+22:41:36:282  INFO 7004 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@626ff077[Running, pool size = 13, active threads = 0, queued tasks = 0, completed tasks = 13]
+22:41:36:286  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 736dd4d6-3873-4b1b-8844-e1147fe42dd7
+22:41:36:286  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [736dd4d6-3873-4b1b-8844-e1147fe42dd7] RpcClient init label, labels = {module=naming, source=sdk}
+22:41:36:286  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [736dd4d6-3873-4b1b-8844-e1147fe42dd7] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+22:41:36:286  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [736dd4d6-3873-4b1b-8844-e1147fe42dd7] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+22:41:36:286  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [736dd4d6-3873-4b1b-8844-e1147fe42dd7] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+22:41:36:286  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [736dd4d6-3873-4b1b-8844-e1147fe42dd7] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+22:41:36:288  INFO 7004 --- [grpc-nio-worker-ELG-1-4] c.a.n.s.i.g.i.AbstractClientStream       : Received trailers on closed stream:
+ Metadata(content-type=application/grpc)
+ {2}
+22:41:36:437  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [736dd4d6-3873-4b1b-8844-e1147fe42dd7] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755787296546_192.168.100.2_59249
+22:41:36:439  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [736dd4d6-3873-4b1b-8844-e1147fe42dd7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+22:41:36:439  INFO 7004 --- [main] com.alibaba.nacos.common.remote.client   : [736dd4d6-3873-4b1b-8844-e1147fe42dd7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1192/0x00000008013bf9f8
+22:41:36:439  INFO 7004 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [736dd4d6-3873-4b1b-8844-e1147fe42dd7] Notify connected event to listeners.
+22:41:36:744  INFO 7004 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+22:41:36:762  INFO 7004 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+22:41:36:798 ERROR 7004 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.27.jar:5.3.27]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:937) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.12.jar:2.7.12]
+	at com.hmall.trade.TradeServiceApplication.main(TradeServiceApplication.java:15) ~[classes/:na]
+Caused by: java.lang.reflect.UndeclaredThrowableException: null
+	at org.springframework.util.ReflectionUtils.rethrowRuntimeException(ReflectionUtils.java:147) ~[spring-core-5.3.27.jar:5.3.27]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:82) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:232) ~[spring-cloud-commons-3.1.3.jar:3.1.3]
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:133) ~[spring-cloud-commons-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:98) ~[spring-cloud-commons-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:86) ~[spring-cloud-commons-3.1.3.jar:3.1.3]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) ~[spring-cloud-commons-3.1.3.jar:3.1.3]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) ~[spring-boot-2.7.12.jar:2.7.12]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.27.jar:5.3.27]
+	... 14 common frames omitted
+Caused by: com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:290) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doRegisterService(NamingGrpcClientProxy.java:129) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.registerService(NamingGrpcClientProxy.java:115) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.registerService(NamingClientProxyDelegate.java:94) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:145) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74) ~[spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:2021.0.4.0]
+	... 27 common frames omitted
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:UNHEALTHY
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:650) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:630) ~[nacos-client-2.0.4.jar:na]
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:280) ~[nacos-client-2.0.4.jar:na]
+	... 32 common frames omitted
+
+22:41:36:800  WARN 7004 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+22:41:36:800  WARN 7004 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+22:41:36:800  WARN 7004 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+22:41:36:802  WARN 7004 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+22:42:53:524  INFO 18648 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 17 on zhangkuan with PID 18648 (D:\java\springCloudLearn\newnewnewnewnewnew\hmall\trade-service\target\classes started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall)
+22:42:53:526 DEBUG 18648 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:42:53:527  INFO 18648 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+22:42:54:638  INFO 18648 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1d8668a3-7baf-359d-831a-2f8b01e39e6f
+22:42:55:054  INFO 18648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+22:42:55:064  INFO 18648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:42:55:064  INFO 18648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:42:55:190  INFO 18648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:42:55:190  INFO 18648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1563 ms
+22:42:55:794  INFO 18648 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+22:42:56:169  INFO 18648 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'pay-service' URL not provided. Will try picking an instance via load-balancing.
+22:42:56:376  INFO 18648 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+22:42:57:784  INFO 18648 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:42:57:827  INFO 18648 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:42:59:032  INFO 18648 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:42:59:284  INFO 18648 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 98861b59-5024-4077-bcd7-3434521dbd24
+22:42:59:320  INFO 18648 --- [main] org.reflections.Reflections              : Reflections took 17 ms to scan 1 urls, producing 3 keys and 6 values 
+22:42:59:342  INFO 18648 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 4 keys and 9 values 
+22:42:59:348  INFO 18648 --- [main] org.reflections.Reflections              : Reflections took 4 ms to scan 1 urls, producing 3 keys and 10 values 
+22:42:59:351  WARN 18648 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22:42:59:360  INFO 18648 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
+22:42:59:373  INFO 18648 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 1 keys and 7 values 
+22:42:59:380  INFO 18648 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+22:42:59:382  WARN 18648 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22:42:59:384  INFO 18648 --- [main] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] RpcClient init label, labels = {module=naming, source=sdk}
+22:42:59:384  INFO 18648 --- [main] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+22:42:59:384  INFO 18648 --- [main] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+22:42:59:384  INFO 18648 --- [main] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+22:42:59:384  INFO 18648 --- [main] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+22:43:00:196  INFO 18648 --- [main] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755787380266_192.168.100.2_64582
+22:43:00:196  INFO 18648 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Notify connected event to listeners.
+22:43:00:197  INFO 18648 --- [main] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+22:43:00:197  INFO 18648 --- [main] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1192/0x00000008013a6828
+22:43:00:258  INFO 18648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+22:43:00:269  INFO 18648 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP trade-service 192.168.1.7:8084 register finished
+22:43:00:764  INFO 18648 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Receive server push request, request = NotifySubscriberRequest, requestId = 8
+22:43:00:776  INFO 18648 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Ack server push request, request = NotifySubscriberRequest, requestId = 8
+22:43:01:373  INFO 18648 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:43:01:373  INFO 18648 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+22:43:01:376  INFO 18648 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+22:43:01:392  INFO 18648 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+22:43:01:480  INFO 18648 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.100.130:5672]
+22:43:01:607  INFO 18648 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#398f0516:0/SimpleConnection@7077ae9c [delegate=amqp://itzk@192.168.100.130:5672/, localPort= 64583]
+22:43:01:817  INFO 18648 --- [main] com.hmall.trade.TradeServiceApplication  : Started TradeServiceApplication in 10.01 seconds (JVM running for 10.898)
+22:44:17:412  INFO 18648 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:44:17:412  INFO 18648 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+22:44:17:414  INFO 18648 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+22:44:17:557  INFO 18648 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+22:44:17:835  INFO 18648 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+22:44:17:855 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=31393377723 HTTP/1.1
+22:44:17:856 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+22:44:17:856 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+22:44:18:038 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200 (180ms)
+22:44:18:038 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+22:44:18:038 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+22:44:18:038 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Thu, 21 Aug 2025 14:44:18 GMT
+22:44:18:038 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+22:44:18:038 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+22:44:18:038 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+22:44:18:040 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"31393377723","name":"华为（HUAWEI） P20 Pro 全面屏徕卡三摄游戏手机 极光闪蝶色 全网通8GB+128G（3期免息）","price":0,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t26443/101/272665766/181628/633c380c/5b8d2417Ne84e5ea5.jpg!q70.jpg.webp","category":"手机","brand":"华为","spec":"{\"颜色\": \"粉色\", \"版本\": \"8GB+128GB\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+22:44:18:040 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (443-byte body)
+22:44:18:098 DEBUG 18648 --- [http-nio-8084-exec-1] c.hmall.trade.mapper.OrderMapper.insert  : ==>  Preparing: INSERT INTO `order` ( id, total_fee, payment_type, user_id, status ) VALUES ( ?, ?, ?, ?, ? )
+22:44:18:124 DEBUG 18648 --- [http-nio-8084-exec-1] c.hmall.trade.mapper.OrderMapper.insert  : ==> Parameters: 1958540669063725057(Long), 0(Integer), 3(Integer), 1(Long), 1(Integer)
+22:44:18:145 DEBUG 18648 --- [http-nio-8084-exec-1] c.hmall.trade.mapper.OrderMapper.insert  : <==    Updates: 1
+22:44:18:157 DEBUG 18648 --- [http-nio-8084-exec-1] c.h.t.mapper.OrderDetailMapper.insert    : ==>  Preparing: INSERT INTO order_detail ( order_id, item_id, num, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+22:44:18:158 DEBUG 18648 --- [http-nio-8084-exec-1] c.h.t.mapper.OrderDetailMapper.insert    : ==> Parameters: 1958540669063725057(Long), 31393377723(Long), 1(Integer), 华为（HUAWEI） P20 Pro 全面屏徕卡三摄游戏手机 极光闪蝶色 全网通8GB+128G（3期免息）(String), {"颜色": "粉色", "版本": "8GB+128GB"}(String), 0(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t26443/101/272665766/181628/633c380c/5b8d2417Ne84e5ea5.jpg!q70.jpg.webp(String)
+22:44:18:204 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> PUT http://item-service/items/stock/deduct HTTP/1.1
+22:44:18:204 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Length: 34
+22:44:18:204 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Type: application/json
+22:44:18:204 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] user-info: 1
+22:44:18:204 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+22:44:18:204 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] [{"itemId":"31393377723","num":1}]
+22:44:18:204 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> END HTTP (34-byte body)
+22:44:18:514  INFO 18648 --- [nacos-grpc-client-executor-26] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Receive server push request, request = NotifySubscriberRequest, requestId = 14
+22:44:18:514  INFO 18648 --- [nacos-grpc-client-executor-26] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Ack server push request, request = NotifySubscriberRequest, requestId = 14
+22:44:19:634 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- HTTP/1.1 200 (1429ms)
+22:44:19:634 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] connection: keep-alive
+22:44:19:634 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] content-length: 0
+22:44:19:634 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] date: Thu, 21 Aug 2025 14:44:19 GMT
+22:44:19:634 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] keep-alive: timeout=60
+22:44:19:634 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+22:44:19:634 DEBUG 18648 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- END HTTP (0-byte body)
+22:44:19:653  INFO 18648 --- [http-nio-8084-exec-1] c.h.trade.service.impl.OrderServiceImpl  : ---> 往交换机 trade.delay.direct 中发送了一条延时消息, 延时时间:120 s
+22:44:19:653  INFO 18648 --- [http-nio-8084-exec-1] c.h.trade.service.impl.OrderServiceImpl  : 订单id：1958540669063725057
+22:44:19:664  INFO 18648 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : null--->1958540669063725057--->trade.delay.direct and delay.order.query:
+22:44:19:664 DEBUG 18648 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : 发送消息成功，收到 ack!
+22:44:34:369 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=31393377723 HTTP/1.1
+22:44:34:369 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+22:44:34:369 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+22:44:34:381 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200 (10ms)
+22:44:34:381 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+22:44:34:381 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+22:44:34:381 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Thu, 21 Aug 2025 14:44:34 GMT
+22:44:34:381 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+22:44:34:381 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+22:44:34:381 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+22:44:34:381 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"31393377723","name":"华为（HUAWEI） P20 Pro 全面屏徕卡三摄游戏手机 极光闪蝶色 全网通8GB+128G（3期免息）","price":0,"stock":9999,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t26443/101/272665766/181628/633c380c/5b8d2417Ne84e5ea5.jpg!q70.jpg.webp","category":"手机","brand":"华为","spec":"{\"颜色\": \"粉色\", \"版本\": \"8GB+128GB\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+22:44:34:381 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (442-byte body)
+22:44:34:382 DEBUG 18648 --- [http-nio-8084-exec-2] c.hmall.trade.mapper.OrderMapper.insert  : ==>  Preparing: INSERT INTO `order` ( id, total_fee, payment_type, user_id, status ) VALUES ( ?, ?, ?, ?, ? )
+22:44:34:383 DEBUG 18648 --- [http-nio-8084-exec-2] c.hmall.trade.mapper.OrderMapper.insert  : ==> Parameters: 1958540737405714433(Long), 0(Integer), 3(Integer), 1(Long), 1(Integer)
+22:44:34:394 DEBUG 18648 --- [http-nio-8084-exec-2] c.hmall.trade.mapper.OrderMapper.insert  : <==    Updates: 1
+22:44:34:394 DEBUG 18648 --- [http-nio-8084-exec-2] c.h.t.mapper.OrderDetailMapper.insert    : ==>  Preparing: INSERT INTO order_detail ( order_id, item_id, num, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+22:44:34:395 DEBUG 18648 --- [http-nio-8084-exec-2] c.h.t.mapper.OrderDetailMapper.insert    : ==> Parameters: 1958540737405714433(Long), 31393377723(Long), 1(Integer), 华为（HUAWEI） P20 Pro 全面屏徕卡三摄游戏手机 极光闪蝶色 全网通8GB+128G（3期免息）(String), {"颜色": "粉色", "版本": "8GB+128GB"}(String), 0(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t26443/101/272665766/181628/633c380c/5b8d2417Ne84e5ea5.jpg!q70.jpg.webp(String)
+22:44:34:414 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> PUT http://item-service/items/stock/deduct HTTP/1.1
+22:44:34:414 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Length: 34
+22:44:34:414 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Type: application/json
+22:44:34:414 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] user-info: 1
+22:44:34:415 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+22:44:34:415 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] [{"itemId":"31393377723","num":1}]
+22:44:34:415 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> END HTTP (34-byte body)
+22:44:34:526 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- HTTP/1.1 200 (112ms)
+22:44:34:527 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] connection: keep-alive
+22:44:34:527 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] content-length: 0
+22:44:34:527 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] date: Thu, 21 Aug 2025 14:44:34 GMT
+22:44:34:527 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] keep-alive: timeout=60
+22:44:34:527 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+22:44:34:527 DEBUG 18648 --- [http-nio-8084-exec-2] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- END HTTP (0-byte body)
+22:44:34:527  INFO 18648 --- [http-nio-8084-exec-2] c.h.trade.service.impl.OrderServiceImpl  : ---> 往交换机 trade.delay.direct 中发送了一条延时消息, 延时时间:120 s
+22:44:34:527  INFO 18648 --- [http-nio-8084-exec-2] c.h.trade.service.impl.OrderServiceImpl  : 订单id：1958540737405714433
+22:44:34:529  INFO 18648 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : null--->1958540737405714433--->trade.delay.direct and delay.order.query:
+22:44:34:530 DEBUG 18648 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : 发送消息成功，收到 ack!
+22:44:34:694 DEBUG 18648 --- [http-nio-8084-exec-3] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+22:44:34:694 DEBUG 18648 --- [http-nio-8084-exec-3] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958540737405714433(Long)
+22:44:34:707 DEBUG 18648 --- [http-nio-8084-exec-3] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+22:44:37:288  WARN 18648 --- [http-nio-8084-exec-4] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @3cd3e762
+22:44:37:294 DEBUG 18648 --- [http-nio-8084-exec-4] c.h.t.m.OrderDetailMapper.selectList     : ==>  Preparing: SELECT id,order_id,item_id,num,name,spec,price,image,create_time,update_time FROM order_detail WHERE (order_id = ?)
+22:44:37:294 DEBUG 18648 --- [http-nio-8084-exec-4] c.h.t.m.OrderDetailMapper.selectList     : ==> Parameters: 1958540737405714433(Long)
+22:44:37:295 DEBUG 18648 --- [http-nio-8084-exec-4] c.h.t.m.OrderDetailMapper.selectList     : <==      Total: 1
+22:44:37:455  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.h.trade.listener.PayStatusListener     : 接收到trade.pay.success.queue MQ消息orderId：1958540737405714433
+22:44:37:460 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.hmall.trade.mapper.OrderMapper.update  : ==>  Preparing: UPDATE `order` SET status=?,pay_time=? WHERE (id = ? AND status = ?)
+22:44:37:463 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.hmall.trade.mapper.OrderMapper.update  : ==> Parameters: 2(Integer), 2025-08-21T22:44:37.457935700(LocalDateTime), 1958540737405714433(Long), 1(Integer)
+22:44:37:470 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.hmall.trade.mapper.OrderMapper.update  : <==    Updates: 1
+22:44:37:519 DEBUG 18648 --- [http-nio-8084-exec-5] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+22:44:37:519 DEBUG 18648 --- [http-nio-8084-exec-5] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958540737405714433(Long)
+22:44:37:524 DEBUG 18648 --- [http-nio-8084-exec-5] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+22:46:19:658  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : ---> 交换机 trade.delay.direct 收到了延时消息:1958540669063725057 
+22:46:19:663 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+22:46:19:663 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958540669063725057(Long)
+22:46:19:673 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+22:46:19:673 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.PayClient           : [PayClient#queryPayOrderByBizOrderNo] ---> GET http://pay-service/pay-orders/biz/1958540669063725057 HTTP/1.1
+22:46:19:673 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.PayClient           : [PayClient#queryPayOrderByBizOrderNo] ---> END HTTP (0-byte body)
+22:46:19:733 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.PayClient           : [PayClient#queryPayOrderByBizOrderNo] <--- HTTP/1.1 200 (58ms)
+22:46:19:733 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.PayClient           : [PayClient#queryPayOrderByBizOrderNo] connection: keep-alive
+22:46:19:733 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.PayClient           : [PayClient#queryPayOrderByBizOrderNo] content-length: 0
+22:46:19:733 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.PayClient           : [PayClient#queryPayOrderByBizOrderNo] date: Thu, 21 Aug 2025 14:46:19 GMT
+22:46:19:733 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.PayClient           : [PayClient#queryPayOrderByBizOrderNo] keep-alive: timeout=60
+22:46:19:733 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.PayClient           : [PayClient#queryPayOrderByBizOrderNo] 
+22:46:19:735 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.PayClient           : [PayClient#queryPayOrderByBizOrderNo] <--- END HTTP (0-byte body)
+22:46:19:735  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : 取消订单 id：1958540669063725057
+22:46:19:737 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.hmall.trade.mapper.OrderMapper.update  : ==>  Preparing: UPDATE `order` SET status=?,pay_time=? WHERE (id = ? AND status = ?)
+22:46:19:737 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.hmall.trade.mapper.OrderMapper.update  : ==> Parameters: 5(Integer), 2025-08-21T22:46:19.735813800(LocalDateTime), 1958540669063725057(Long), 1(Integer)
+22:46:19:743 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.hmall.trade.mapper.OrderMapper.update  : <==    Updates: 1
+22:46:19:743 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.m.OrderDetailMapper.selectList     : ==>  Preparing: SELECT id,order_id,item_id,num,name,spec,price,image,create_time,update_time FROM order_detail WHERE (order_id = ?)
+22:46:19:743 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.m.OrderDetailMapper.selectList     : ==> Parameters: 1958540669063725057(Long)
+22:46:19:743 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.m.OrderDetailMapper.selectList     : <==      Total: 1
+22:46:19:743 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.ItemClient          : [ItemClient#incrStock] ---> GET http://item-service/items/stock/incr?itemId=31393377723&itemNum=1 HTTP/1.1
+22:46:19:743 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.ItemClient          : [ItemClient#incrStock] ---> END HTTP (0-byte body)
+22:46:19:942 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.ItemClient          : [ItemClient#incrStock] <--- HTTP/1.1 200 (189ms)
+22:46:19:942 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.ItemClient          : [ItemClient#incrStock] connection: keep-alive
+22:46:19:942 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.ItemClient          : [ItemClient#incrStock] content-length: 0
+22:46:19:942 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.ItemClient          : [ItemClient#incrStock] date: Thu, 21 Aug 2025 14:46:19 GMT
+22:46:19:942 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.ItemClient          : [ItemClient#incrStock] keep-alive: timeout=60
+22:46:19:942 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.ItemClient          : [ItemClient#incrStock] 
+22:46:19:942 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] com.hmall.api.client.ItemClient          : [ItemClient#incrStock] <--- END HTTP (0-byte body)
+22:46:19:942  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.trade.service.impl.OrderServiceImpl  : 商品id: 31393377723 增加了库存：1 个
+22:46:20:227  INFO 18648 --- [nacos-grpc-client-executor-55] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Receive server push request, request = NotifySubscriberRequest, requestId = 20
+22:46:20:227  INFO 18648 --- [nacos-grpc-client-executor-55] com.alibaba.nacos.common.remote.client   : [98861b59-5024-4077-bcd7-3434521dbd24] Ack server push request, request = NotifySubscriberRequest, requestId = 20
+22:46:34:523  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : ---> 交换机 trade.delay.direct 收到了延时消息:1958540737405714433 
+22:46:34:523 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+22:46:34:523 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958540737405714433(Long)
+22:46:34:523 DEBUG 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+22:52:30:874  WARN 18648 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+22:52:30:874  WARN 18648 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+22:52:30:874  WARN 18648 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+22:52:30:875  WARN 18648 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+22:52:30:882  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+22:52:30:885  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+22:52:30:887  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+22:52:31:386  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+22:52:31:492  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+22:52:31:773  INFO 18648 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+22:52:31:809  INFO 18648 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+22:52:31:859  INFO 18648 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+22:52:32:182  INFO 18648 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+22:52:32:182  INFO 18648 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@2c0c00db[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+22:52:32:182  INFO 18648 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755787380266_192.168.100.2_64582
+22:52:32:190  INFO 18648 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@4c0cac91[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 143]
+22:52:32:204  INFO 18648 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+22:52:32:204  INFO 18648 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+22:52:32:204  INFO 18648 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+22:52:32:206  INFO 18648 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+22:52:32:274  INFO 18648 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+22:52:39:653  INFO 20584 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 17 on zhangkuan with PID 20584 (D:\java\springCloudLearn\newnewnewnewnewnew\hmall\trade-service\target\classes started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall)
+22:52:39:656 DEBUG 20584 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:52:39:656  INFO 20584 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+22:52:40:800  INFO 20584 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1d8668a3-7baf-359d-831a-2f8b01e39e6f
+22:52:41:259  INFO 20584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+22:52:41:269  INFO 20584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:52:41:269  INFO 20584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:52:41:389  INFO 20584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:52:41:390  INFO 20584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1677 ms
+22:52:42:050  INFO 20584 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+22:52:42:356  INFO 20584 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'pay-service' URL not provided. Will try picking an instance via load-balancing.
+22:52:42:518  INFO 20584 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+22:52:43:882  INFO 20584 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:52:43:931  INFO 20584 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:52:45:145  INFO 20584 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:52:45:438  INFO 20584 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of d98ebe99-cd95-442c-8885-a3469f65b398
+22:52:45:472  INFO 20584 --- [main] org.reflections.Reflections              : Reflections took 18 ms to scan 1 urls, producing 3 keys and 6 values 
+22:52:45:494  INFO 20584 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 4 keys and 9 values 
+22:52:45:503  INFO 20584 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 3 keys and 10 values 
+22:52:45:505  WARN 20584 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22:52:45:512  INFO 20584 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
+22:52:45:526  INFO 20584 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 1 keys and 7 values 
+22:52:45:534  INFO 20584 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 2 keys and 8 values 
+22:52:45:537  WARN 20584 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22:52:45:539  INFO 20584 --- [main] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] RpcClient init label, labels = {module=naming, source=sdk}
+22:52:45:541  INFO 20584 --- [main] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+22:52:45:542  INFO 20584 --- [main] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+22:52:45:542  INFO 20584 --- [main] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+22:52:45:543  INFO 20584 --- [main] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+22:52:46:335  INFO 20584 --- [main] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755787966409_192.168.100.2_61256
+22:52:46:335  INFO 20584 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Notify connected event to listeners.
+22:52:46:336  INFO 20584 --- [main] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+22:52:46:336  INFO 20584 --- [main] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1192/0x00000008013a6228
+22:52:46:388  INFO 20584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+22:52:46:400  INFO 20584 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP trade-service 192.168.1.7:8084 register finished
+22:52:46:915  INFO 20584 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Receive server push request, request = NotifySubscriberRequest, requestId = 24
+22:52:46:924  INFO 20584 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Ack server push request, request = NotifySubscriberRequest, requestId = 24
+22:52:47:509  INFO 20584 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:52:47:510  INFO 20584 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+22:52:47:516  INFO 20584 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+22:52:47:532  INFO 20584 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+22:52:47:609  INFO 20584 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.100.130:5672]
+22:52:47:635  INFO 20584 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#68479e8b:0/SimpleConnection@571903ff [delegate=amqp://itzk@192.168.100.130:5672/, localPort= 61263]
+22:52:47:704  INFO 20584 --- [main] com.hmall.trade.TradeServiceApplication  : Started TradeServiceApplication in 9.746 seconds (JVM running for 10.908)
+22:53:10:232  INFO 20584 --- [http-nio-8084-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:53:10:232  INFO 20584 --- [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+22:53:10:232  INFO 20584 --- [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+22:53:10:371  INFO 20584 --- [http-nio-8084-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+22:53:10:712  INFO 20584 --- [http-nio-8084-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+22:53:10:722 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=7465894 HTTP/1.1
+22:53:10:722 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+22:53:10:722 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+22:53:10:858 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200 (129ms)
+22:53:10:858 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+22:53:10:858 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+22:53:10:858 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Thu, 21 Aug 2025 14:53:10 GMT
+22:53:10:858 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+22:53:10:858 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+22:53:10:858 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+22:53:10:858 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"7465894","name":"小米（MI）小米电视4S 55英寸 曲面 L55M5-AQ 2GB+8GB HDR 4K超高清 蓝牙语音 人工智能语音网络液晶平板电视","price":171500,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t28639/347/53772617/364533/e080afb9/5be66979N38d99b80.jpg!q70.jpg.webp","category":"曲面电视","brand":"小米","spec":"{\"尺寸\": \"4英寸\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+22:53:10:858 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (446-byte body)
+22:53:10:896 DEBUG 20584 --- [http-nio-8084-exec-3] c.hmall.trade.mapper.OrderMapper.insert  : ==>  Preparing: INSERT INTO `order` ( id, total_fee, payment_type, user_id, status ) VALUES ( ?, ?, ?, ?, ? )
+22:53:10:912 DEBUG 20584 --- [http-nio-8084-exec-3] c.hmall.trade.mapper.OrderMapper.insert  : ==> Parameters: 1958542903797284866(Long), 171500(Integer), 3(Integer), 1(Long), 1(Integer)
+22:53:10:937 DEBUG 20584 --- [http-nio-8084-exec-3] c.hmall.trade.mapper.OrderMapper.insert  : <==    Updates: 1
+22:53:10:948 DEBUG 20584 --- [http-nio-8084-exec-3] c.h.t.mapper.OrderDetailMapper.insert    : ==>  Preparing: INSERT INTO order_detail ( order_id, item_id, num, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+22:53:10:950 DEBUG 20584 --- [http-nio-8084-exec-3] c.h.t.mapper.OrderDetailMapper.insert    : ==> Parameters: 1958542903797284866(Long), 7465894(Long), 1(Integer), 小米（MI）小米电视4S 55英寸 曲面 L55M5-AQ 2GB+8GB HDR 4K超高清 蓝牙语音 人工智能语音网络液晶平板电视(String), {"尺寸": "4英寸"}(String), 171500(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t28639/347/53772617/364533/e080afb9/5be66979N38d99b80.jpg!q70.jpg.webp(String)
+22:53:10:975 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> PUT http://item-service/items/stock/deduct HTTP/1.1
+22:53:10:975 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Length: 30
+22:53:10:975 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Type: application/json
+22:53:10:975 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] user-info: 1
+22:53:10:975 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+22:53:10:975 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] [{"itemId":"7465894","num":1}]
+22:53:10:975 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> END HTTP (30-byte body)
+22:53:11:227 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- HTTP/1.1 200 (247ms)
+22:53:11:227 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] connection: keep-alive
+22:53:11:227 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] content-length: 0
+22:53:11:227 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] date: Thu, 21 Aug 2025 14:53:10 GMT
+22:53:11:227 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] keep-alive: timeout=60
+22:53:11:227 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+22:53:11:227 DEBUG 20584 --- [http-nio-8084-exec-3] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- END HTTP (0-byte body)
+22:53:11:238  INFO 20584 --- [http-nio-8084-exec-3] c.h.trade.service.impl.OrderServiceImpl  : ---> 往交换机 trade.delay.direct 中发送了一条延时消息, 延时时间:120 s
+22:53:11:238  INFO 20584 --- [http-nio-8084-exec-3] c.h.trade.service.impl.OrderServiceImpl  : 订单id：1958542903797284866
+22:53:11:240  INFO 20584 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : null--->1958542903797284866--->trade.delay.direct and delay.order.query:
+22:53:11:240 DEBUG 20584 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : 发送消息成功，收到 ack!
+22:53:11:336  INFO 20584 --- [nacos-grpc-client-executor-16] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Receive server push request, request = NotifySubscriberRequest, requestId = 26
+22:53:11:337  INFO 20584 --- [nacos-grpc-client-executor-16] com.alibaba.nacos.common.remote.client   : [d98ebe99-cd95-442c-8885-a3469f65b398] Ack server push request, request = NotifySubscriberRequest, requestId = 26
+22:53:11:358 DEBUG 20584 --- [http-nio-8084-exec-1] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+22:53:11:358 DEBUG 20584 --- [http-nio-8084-exec-1] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958542903797284866(Long)
+22:53:11:373 DEBUG 20584 --- [http-nio-8084-exec-1] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+22:54:08:562  WARN 20584 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+22:54:08:562  WARN 20584 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+22:54:08:562  WARN 20584 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+22:54:08:562  WARN 20584 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+22:54:08:572  INFO 20584 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+22:54:08:572  INFO 20584 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+22:54:08:577  INFO 20584 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+22:54:09:378  INFO 20584 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+22:54:09:378  INFO 20584 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+22:54:09:378  INFO 20584 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+22:54:09:402  INFO 20584 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+22:54:09:402  INFO 20584 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+22:54:09:734  INFO 20584 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+22:54:09:734  INFO 20584 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@1bb6704c[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+22:54:09:734  INFO 20584 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755787966409_192.168.100.2_61256
+22:54:09:734  INFO 20584 --- [nacos-grpc-client-executor-30] c.a.n.c.remote.client.grpc.GrpcClient    : [1755787966409_192.168.100.2_61256]Ignore complete event,isRunning:false,isAbandon=false
+22:54:09:742  INFO 20584 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@2278124d[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 31]
+22:54:09:752  INFO 20584 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+22:54:09:752  INFO 20584 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+22:54:09:752  INFO 20584 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+22:54:09:755  INFO 20584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+22:54:09:769  INFO 20584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+22:54:17:456  INFO 17332 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 17 on zhangkuan with PID 17332 (D:\java\springCloudLearn\newnewnewnewnewnew\hmall\trade-service\target\classes started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall)
+22:54:17:470 DEBUG 17332 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:54:17:470  INFO 17332 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+22:54:18:464  INFO 17332 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1d8668a3-7baf-359d-831a-2f8b01e39e6f
+22:54:18:871  INFO 17332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+22:54:18:885  INFO 17332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:54:18:885  INFO 17332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:54:19:004  INFO 17332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:54:19:004  INFO 17332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1482 ms
+22:54:19:602  INFO 17332 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+22:54:19:917  INFO 17332 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'pay-service' URL not provided. Will try picking an instance via load-balancing.
+22:54:20:075  INFO 17332 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+22:54:21:453  INFO 17332 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:54:21:522  INFO 17332 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:54:22:822  INFO 17332 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:54:23:512  INFO 17332 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 20165ca8-df94-4085-bbec-4788c86c9857
+22:54:23:593  INFO 17332 --- [main] org.reflections.Reflections              : Reflections took 71 ms to scan 1 urls, producing 3 keys and 6 values 
+22:54:23:616  INFO 17332 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 4 keys and 9 values 
+22:54:23:628  INFO 17332 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 3 keys and 10 values 
+22:54:23:633  WARN 17332 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22:54:23:644  INFO 17332 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 5 values 
+22:54:23:651  INFO 17332 --- [main] org.reflections.Reflections              : Reflections took 4 ms to scan 1 urls, producing 1 keys and 7 values 
+22:54:23:664  INFO 17332 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 2 keys and 8 values 
+22:54:23:664  WARN 17332 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22:54:23:664  INFO 17332 --- [main] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] RpcClient init label, labels = {module=naming, source=sdk}
+22:54:23:664  INFO 17332 --- [main] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+22:54:23:664  INFO 17332 --- [main] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+22:54:23:664  INFO 17332 --- [main] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+22:54:23:672  INFO 17332 --- [main] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+22:54:24:348  INFO 17332 --- [main] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755788064437_192.168.100.2_61595
+22:54:24:348  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Notify connected event to listeners.
+22:54:24:348  INFO 17332 --- [main] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+22:54:24:348  INFO 17332 --- [main] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1192/0x00000008013a6b38
+22:54:24:392  INFO 17332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+22:54:24:401  INFO 17332 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP trade-service 192.168.1.7:8084 register finished
+22:54:24:894  INFO 17332 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Receive server push request, request = NotifySubscriberRequest, requestId = 30
+22:54:24:905  INFO 17332 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Ack server push request, request = NotifySubscriberRequest, requestId = 30
+22:54:25:512  INFO 17332 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:54:25:514  INFO 17332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+22:54:25:522  INFO 17332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+22:54:25:548  INFO 17332 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+22:54:25:624  INFO 17332 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.100.130:5672]
+22:54:25:644  INFO 17332 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#3ea9a091:0/SimpleConnection@5aefdb9e [delegate=amqp://itzk@192.168.100.130:5672/, localPort= 61602]
+22:54:25:733  INFO 17332 --- [main] com.hmall.trade.TradeServiceApplication  : Started TradeServiceApplication in 9.916 seconds (JVM running for 11.042)
+22:55:11:249  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : --->故意的抛异常2025-08-21T22:55:11.249000800
+22:55:12:255  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : --->故意的抛异常2025-08-21T22:55:12.255330900
+22:55:13:269  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : --->故意的抛异常2025-08-21T22:55:13.269150400
+22:55:13:272  WARN 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] o.s.a.r.r.RejectAndDontRequeueRecoverer  : Retries exhausted for message (Body:'1958542903797284866' MessageProperties [headers={spring_returned_message_correlation=cf5747d0-e361-4e74-97d4-7888d613b8ff, __TypeId__=java.lang.Long}, messageId=b8d9701d-b4fe-46f0-a1ed-7b3ab147d551, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=trade.delay.direct, receivedRoutingKey=delay.order.query, receivedDelay=120000, deliveryTag=1, consumerTag=amq.ctag-paC7QpyKE6LxuVimYj5QZQ, consumerQueue=trade.delay.order.queue])
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method 'public void com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(java.lang.Long)' threw exception
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:272) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:209) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1674) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1593) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:97) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:329) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:225) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:122) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.$Proxy170.invokeListener(Unknown Source) ~[na:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1581) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1572) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1516) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1001) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:948) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:86) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1326) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1232) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.RuntimeException: 模拟故意的抛异常
+	at com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(OrderDelayMessageListener.java:52) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:77) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:263) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	... 27 common frames omitted
+
+22:55:13:273  WARN 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Retry Policy Exhausted
+	at org.springframework.amqp.rabbit.retry.RejectAndDontRequeueRecoverer.recover(RejectAndDontRequeueRecoverer.java:76) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.config.StatelessRetryOperationsInterceptorFactoryBean.recover(StatelessRetryOperationsInterceptorFactoryBean.java:78) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$ItemRecovererCallback.recover(RetryOperationsInterceptor.java:157) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.handleRetryExhausted(RetryTemplate.java:539) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:387) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:225) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:122) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.$Proxy170.invokeListener(Unknown Source) ~[na:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1581) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1572) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1516) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1001) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:948) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:86) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1326) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1232) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.springframework.amqp.AmqpRejectAndDontRequeueException: null
+	... 19 common frames omitted
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method 'public void com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(java.lang.Long)' threw exception
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:272) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:209) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1674) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1593) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:97) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:329) ~[spring-retry-1.3.4.jar:na]
+	... 14 common frames omitted
+Caused by: java.lang.RuntimeException: 模拟故意的抛异常
+	at com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(OrderDelayMessageListener.java:52) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:77) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:263) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	... 27 common frames omitted
+
+22:55:13:306 ERROR 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.trade.listener.DeadLetterListener    : 订单 1958542903797284866 在延迟消息处理中多次失败，已进入死信队列，请人工介入或自动补偿！
+22:55:15:091  INFO 17332 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:55:15:091  INFO 17332 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+22:55:15:092  INFO 17332 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+22:55:15:222  INFO 17332 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+22:55:15:435  INFO 17332 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+22:55:15:449 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=7465894 HTTP/1.1
+22:55:15:449 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+22:55:15:449 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+22:55:15:571 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200 (120ms)
+22:55:15:571 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+22:55:15:571 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+22:55:15:571 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Thu, 21 Aug 2025 14:55:15 GMT
+22:55:15:571 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+22:55:15:571 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+22:55:15:571 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+22:55:15:572 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"7465894","name":"小米（MI）小米电视4S 55英寸 曲面 L55M5-AQ 2GB+8GB HDR 4K超高清 蓝牙语音 人工智能语音网络液晶平板电视","price":171500,"stock":9999,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t28639/347/53772617/364533/e080afb9/5be66979N38d99b80.jpg!q70.jpg.webp","category":"曲面电视","brand":"小米","spec":"{\"尺寸\": \"4英寸\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+22:55:15:572 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (445-byte body)
+22:55:15:619 DEBUG 17332 --- [http-nio-8084-exec-1] c.hmall.trade.mapper.OrderMapper.insert  : ==>  Preparing: INSERT INTO `order` ( id, total_fee, payment_type, user_id, status ) VALUES ( ?, ?, ?, ?, ? )
+22:55:15:641 DEBUG 17332 --- [http-nio-8084-exec-1] c.hmall.trade.mapper.OrderMapper.insert  : ==> Parameters: 1958543426910851074(Long), 171500(Integer), 3(Integer), 1(Long), 1(Integer)
+22:55:15:648 DEBUG 17332 --- [http-nio-8084-exec-1] c.hmall.trade.mapper.OrderMapper.insert  : <==    Updates: 1
+22:55:15:658 DEBUG 17332 --- [http-nio-8084-exec-1] c.h.t.mapper.OrderDetailMapper.insert    : ==>  Preparing: INSERT INTO order_detail ( order_id, item_id, num, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+22:55:15:660 DEBUG 17332 --- [http-nio-8084-exec-1] c.h.t.mapper.OrderDetailMapper.insert    : ==> Parameters: 1958543426910851074(Long), 7465894(Long), 1(Integer), 小米（MI）小米电视4S 55英寸 曲面 L55M5-AQ 2GB+8GB HDR 4K超高清 蓝牙语音 人工智能语音网络液晶平板电视(String), {"尺寸": "4英寸"}(String), 171500(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t28639/347/53772617/364533/e080afb9/5be66979N38d99b80.jpg!q70.jpg.webp(String)
+22:55:15:684 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> PUT http://item-service/items/stock/deduct HTTP/1.1
+22:55:15:684 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Length: 30
+22:55:15:684 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Type: application/json
+22:55:15:684 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] user-info: 1
+22:55:15:685 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+22:55:15:685 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] [{"itemId":"7465894","num":1}]
+22:55:15:685 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> END HTTP (30-byte body)
+22:55:15:849 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- HTTP/1.1 200 (164ms)
+22:55:15:849 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] connection: keep-alive
+22:55:15:849 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] content-length: 0
+22:55:15:849 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] date: Thu, 21 Aug 2025 14:55:15 GMT
+22:55:15:849 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] keep-alive: timeout=60
+22:55:15:849 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+22:55:15:849 DEBUG 17332 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- END HTTP (0-byte body)
+22:55:15:860  INFO 17332 --- [http-nio-8084-exec-1] c.h.trade.service.impl.OrderServiceImpl  : ---> 往交换机 trade.delay.direct 中发送了一条延时消息, 延时时间:120 s
+22:55:15:860  INFO 17332 --- [http-nio-8084-exec-1] c.h.trade.service.impl.OrderServiceImpl  : 订单id：1958543426910851074
+22:55:15:863  INFO 17332 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : null--->1958543426910851074--->trade.delay.direct and delay.order.query:
+22:55:15:863 DEBUG 17332 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : 发送消息成功，收到 ack!
+22:55:15:945 DEBUG 17332 --- [http-nio-8084-exec-2] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+22:55:15:945 DEBUG 17332 --- [http-nio-8084-exec-2] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958543426910851074(Long)
+22:55:15:972 DEBUG 17332 --- [http-nio-8084-exec-2] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+22:55:16:116  INFO 17332 --- [nacos-grpc-client-executor-23] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Receive server push request, request = NotifySubscriberRequest, requestId = 32
+22:55:16:117  INFO 17332 --- [nacos-grpc-client-executor-23] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Ack server push request, request = NotifySubscriberRequest, requestId = 32
+22:55:27:863  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : --->故意的抛异常2025-08-21T22:55:27.863965200
+22:55:28:878  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : --->故意的抛异常2025-08-21T22:55:28.878944700
+22:55:29:879  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : --->故意的抛异常2025-08-21T22:55:29.879873800
+22:55:29:880  WARN 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] o.s.a.r.r.RejectAndDontRequeueRecoverer  : Retries exhausted for message (Body:'1958543426910851074' MessageProperties [headers={spring_returned_message_correlation=59e8c735-f098-4ed4-806e-a7440439cef7, __TypeId__=java.lang.Long}, messageId=f07d9cc0-9037-479b-87a3-a8a52dc2392e, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=trade.delay.direct, receivedRoutingKey=delay.order.query, receivedDelay=12000, deliveryTag=2, consumerTag=amq.ctag-paC7QpyKE6LxuVimYj5QZQ, consumerQueue=trade.delay.order.queue])
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method 'public void com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(java.lang.Long)' threw exception
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:272) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:209) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1674) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1593) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:97) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:329) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:225) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:122) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.$Proxy170.invokeListener(Unknown Source) ~[na:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1581) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1572) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1516) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1001) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:948) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:86) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1326) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1232) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.RuntimeException: 模拟故意的抛异常
+	at com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(OrderDelayMessageListener.java:52) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:77) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:263) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	... 27 common frames omitted
+
+22:55:29:881  WARN 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Retry Policy Exhausted
+	at org.springframework.amqp.rabbit.retry.RejectAndDontRequeueRecoverer.recover(RejectAndDontRequeueRecoverer.java:76) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.config.StatelessRetryOperationsInterceptorFactoryBean.recover(StatelessRetryOperationsInterceptorFactoryBean.java:78) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$ItemRecovererCallback.recover(RetryOperationsInterceptor.java:157) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.handleRetryExhausted(RetryTemplate.java:539) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:387) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:225) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:122) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.$Proxy170.invokeListener(Unknown Source) ~[na:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1581) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1572) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1516) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1001) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:948) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:86) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1326) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1232) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.springframework.amqp.AmqpRejectAndDontRequeueException: null
+	... 19 common frames omitted
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method 'public void com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(java.lang.Long)' threw exception
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:272) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:209) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1674) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1593) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:97) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:329) ~[spring-retry-1.3.4.jar:na]
+	... 14 common frames omitted
+Caused by: java.lang.RuntimeException: 模拟故意的抛异常
+	at com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(OrderDelayMessageListener.java:52) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:77) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:263) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	... 27 common frames omitted
+
+22:55:29:891 ERROR 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.trade.listener.DeadLetterListener    : 订单 1958543426910851074 在延迟消息处理中多次失败，已进入死信队列，请人工介入或自动补偿！
+23:01:56:842 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=31908367000 HTTP/1.1
+23:01:56:842 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+23:01:56:842 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+23:01:56:853 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200 (11ms)
+23:01:56:853 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+23:01:56:853 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+23:01:56:853 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Thu, 21 Aug 2025 15:01:56 GMT
+23:01:56:854 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+23:01:56:854 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+23:01:56:854 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+23:01:56:854 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"31908367000","name":"小米（MI） 小米8 游戏手机 曜石黑(屏幕指纹版) 全网通 6G+64G","price":400,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/3968/10/6917/259724/5ba46336E2bb1f694/c481fb637c183480.jpg!q70.jpg.webp","category":"手机","brand":"小米","spec":"{\"颜色\": \"金色\", \"版本\": \"6GB+64GB\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+23:01:56:854 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (416-byte body)
+23:01:56:855 DEBUG 17332 --- [http-nio-8084-exec-4] c.hmall.trade.mapper.OrderMapper.insert  : ==>  Preparing: INSERT INTO `order` ( id, total_fee, payment_type, user_id, status ) VALUES ( ?, ?, ?, ?, ? )
+23:01:56:855 DEBUG 17332 --- [http-nio-8084-exec-4] c.hmall.trade.mapper.OrderMapper.insert  : ==> Parameters: 1958545109799833601(Long), 400(Integer), 3(Integer), 1(Long), 1(Integer)
+23:01:56:860 DEBUG 17332 --- [http-nio-8084-exec-4] c.hmall.trade.mapper.OrderMapper.insert  : <==    Updates: 1
+23:01:56:860 DEBUG 17332 --- [http-nio-8084-exec-4] c.h.t.mapper.OrderDetailMapper.insert    : ==>  Preparing: INSERT INTO order_detail ( order_id, item_id, num, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+23:01:56:860 DEBUG 17332 --- [http-nio-8084-exec-4] c.h.t.mapper.OrderDetailMapper.insert    : ==> Parameters: 1958545109799833601(Long), 31908367000(Long), 1(Integer), 小米（MI） 小米8 游戏手机 曜石黑(屏幕指纹版) 全网通 6G+64G(String), {"颜色": "金色", "版本": "6GB+64GB"}(String), 400(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/3968/10/6917/259724/5ba46336E2bb1f694/c481fb637c183480.jpg!q70.jpg.webp(String)
+23:01:56:870 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> PUT http://item-service/items/stock/deduct HTTP/1.1
+23:01:56:870 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Length: 34
+23:01:56:870 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Type: application/json
+23:01:56:870 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] user-info: 1
+23:01:56:870 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+23:01:56:870 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] [{"itemId":"31908367000","num":1}]
+23:01:56:870 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> END HTTP (34-byte body)
+23:01:57:060 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- HTTP/1.1 200 (193ms)
+23:01:57:060 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] connection: keep-alive
+23:01:57:060 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] content-length: 0
+23:01:57:060 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] date: Thu, 21 Aug 2025 15:01:56 GMT
+23:01:57:060 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] keep-alive: timeout=60
+23:01:57:060 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+23:01:57:060 DEBUG 17332 --- [http-nio-8084-exec-4] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- END HTTP (0-byte body)
+23:01:57:060  INFO 17332 --- [http-nio-8084-exec-4] c.h.trade.service.impl.OrderServiceImpl  : ---> 往交换机 trade.delay.direct 中发送了一条延时消息, 延时时间:120 s
+23:01:57:060  INFO 17332 --- [http-nio-8084-exec-4] c.h.trade.service.impl.OrderServiceImpl  : 订单id：1958545109799833601
+23:01:57:060  INFO 17332 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : null--->1958545109799833601--->trade.delay.direct and delay.order.query:
+23:01:57:060 DEBUG 17332 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : 发送消息成功，收到 ack!
+23:01:57:134 DEBUG 17332 --- [http-nio-8084-exec-5] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+23:01:57:134 DEBUG 17332 --- [http-nio-8084-exec-5] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958545109799833601(Long)
+23:01:57:134 DEBUG 17332 --- [http-nio-8084-exec-5] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+23:02:09:064  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : --->故意的抛异常2025-08-21T23:02:09.064209300
+23:02:10:070  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : --->故意的抛异常2025-08-21T23:02:10.070956800
+23:02:11:072  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : --->故意的抛异常2025-08-21T23:02:11.072576700
+23:02:11:072  WARN 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] o.s.a.r.r.RejectAndDontRequeueRecoverer  : Retries exhausted for message (Body:'1958545109799833601' MessageProperties [headers={spring_returned_message_correlation=a59e688d-ff8b-48a2-9c56-cd176ad89948, __TypeId__=java.lang.Long}, messageId=49472816-8e73-48d7-aed2-dfe99dc1615c, contentType=application/json, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=trade.delay.direct, receivedRoutingKey=delay.order.query, receivedDelay=12000, deliveryTag=3, consumerTag=amq.ctag-paC7QpyKE6LxuVimYj5QZQ, consumerQueue=trade.delay.order.queue])
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method 'public void com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(java.lang.Long)' threw exception
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:272) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:209) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1674) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1593) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:97) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:329) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:225) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:122) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.$Proxy170.invokeListener(Unknown Source) ~[na:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1581) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1572) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1516) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1001) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:948) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:86) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1326) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1232) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.RuntimeException: 模拟故意的抛异常
+	at com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(OrderDelayMessageListener.java:52) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:77) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:263) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	... 27 common frames omitted
+
+23:02:11:073  WARN 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] s.a.r.l.ConditionalRejectingErrorHandler : Execution of Rabbit message listener failed.
+
+org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Retry Policy Exhausted
+	at org.springframework.amqp.rabbit.retry.RejectAndDontRequeueRecoverer.recover(RejectAndDontRequeueRecoverer.java:76) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.config.StatelessRetryOperationsInterceptorFactoryBean.recover(StatelessRetryOperationsInterceptorFactoryBean.java:78) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$ItemRecovererCallback.recover(RetryOperationsInterceptor.java:157) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.handleRetryExhausted(RetryTemplate.java:539) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:387) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:225) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:122) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.$Proxy170.invokeListener(Unknown Source) ~[na:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1581) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1572) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1516) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:1001) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:948) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:86) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1326) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1232) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.springframework.amqp.AmqpRejectAndDontRequeueException: null
+	... 19 common frames omitted
+Caused by: org.springframework.amqp.rabbit.support.ListenerExecutionFailedException: Listener method 'public void com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(java.lang.Long)' threw exception
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:272) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:209) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1674) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1593) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.27.jar:5.3.27]
+	at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:97) ~[spring-retry-1.3.4.jar:na]
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:329) ~[spring-retry-1.3.4.jar:na]
+	... 14 common frames omitted
+Caused by: java.lang.RuntimeException: 模拟故意的抛异常
+	at com.hmall.trade.listener.OrderDelayMessageListener.listenerOrderDelayMessage(OrderDelayMessageListener.java:52) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119) ~[spring-messaging-5.3.27.jar:5.3.27]
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:77) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:263) ~[spring-rabbit-2.4.12.jar:2.4.12]
+	... 27 common frames omitted
+
+23:02:52:197  WARN 17332 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s554ms933µs300ns).
+23:02:52:200 ERROR 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] c.h.trade.listener.DeadLetterListener    : 订单 1958545109799833601 在延迟消息处理中多次失败，已进入死信队列，请人工介入或自动补偿！
+23:02:52:202  INFO 17332 --- [nacos-grpc-client-executor-119] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Receive server push request, request = ClientDetectionRequest, requestId = 33
+23:02:52:202  INFO 17332 --- [nacos-grpc-client-executor-119] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Ack server push request, request = ClientDetectionRequest, requestId = 33
+23:02:52:206 ERROR 17332 --- [nacos-grpc-client-executor-119] c.a.n.c.remote.client.grpc.GrpcClient    : [1755788064437_192.168.100.2_61595]Request stream onCompleted, switch server
+23:02:52:211  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Server healthy check fail, currentConnection = 1755788064437_192.168.100.2_61595
+23:02:52:211 ERROR 17332 --- [com.alibaba.nacos.client.naming.updater.2] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={}, requestId='null'}, retryTimes = 0, errorMessage = java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: HTTP/2 error code: NO_ERROR
+Received Goaway
+app_requested
+23:02:52:211 ERROR 17332 --- [com.alibaba.nacos.client.naming.updater.0] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={}, requestId='null'}, retryTimes = 0, errorMessage = java.util.concurrent.ExecutionException: com.alibaba.nacos.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: HTTP/2 error code: NO_ERROR
+Received Goaway
+app_requested
+23:02:52:211  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+23:02:52:320 ERROR 17332 --- [com.alibaba.nacos.client.naming.updater.0] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:UNHEALTHY
+23:02:52:320 ERROR 17332 --- [com.alibaba.nacos.client.naming.updater.2] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:UNHEALTHY
+23:02:52:352  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Success to connect a server [192.168.100.130:8848], connectionId = 1755788572506_192.168.100.2_53992
+23:02:52:352  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Abandon prev connection, server is 192.168.100.130:8848, connectionId is 1755788064437_192.168.100.2_61595
+23:02:52:352  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1755788064437_192.168.100.2_61595
+23:02:52:354  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+23:02:52:354  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Notify disconnected event to listeners
+23:02:52:354  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Notify connected event to listeners.
+23:02:52:431 ERROR 17332 --- [com.alibaba.nacos.client.naming.updater.2] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={}, requestId='null'}, retryTimes = 2, errorMessage = Client not connected, current status:UNHEALTHY
+23:02:52:431 ERROR 17332 --- [com.alibaba.nacos.client.naming.updater.0] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={}, requestId='null'}, retryTimes = 2, errorMessage = Client not connected, current status:UNHEALTHY
+23:02:52:478  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Success to connect a server [192.168.100.130:8848], connectionId = 1755788572630_192.168.100.2_53993
+23:02:52:478  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Abandon prev connection, server is 192.168.100.130:8848, connectionId is 1755788572506_192.168.100.2_53992
+23:02:52:478  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1755788572506_192.168.100.2_53992
+23:02:52:480  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Notify disconnected event to listeners
+23:02:52:480  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Notify connected event to listeners.
+23:02:52:480  INFO 17332 --- [nacos-grpc-client-executor-129] c.a.n.c.remote.client.grpc.GrpcClient    : [1755788572506_192.168.100.2_53992]Ignore complete event,isRunning:true,isAbandon=true
+23:02:52:486  INFO 17332 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Server check success, currentServer is 192.168.100.130:8848 
+23:02:55:746  INFO 17332 --- [nacos-grpc-client-executor-137] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Receive server push request, request = NotifySubscriberRequest, requestId = 36
+23:02:55:746  INFO 17332 --- [nacos-grpc-client-executor-137] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Ack server push request, request = NotifySubscriberRequest, requestId = 36
+23:02:55:750  INFO 17332 --- [nacos-grpc-client-executor-138] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Receive server push request, request = NotifySubscriberRequest, requestId = 38
+23:02:55:750  INFO 17332 --- [nacos-grpc-client-executor-138] com.alibaba.nacos.common.remote.client   : [20165ca8-df94-4085-bbec-4788c86c9857] Ack server push request, request = NotifySubscriberRequest, requestId = 38
+23:08:04:605  WARN 17332 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+23:08:04:605  WARN 17332 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+23:08:04:605  WARN 17332 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+23:08:04:609  WARN 17332 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+23:08:04:609  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+23:08:04:609  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+23:08:04:609  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+23:08:04:639  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+23:08:04:679  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+23:08:04:775  INFO 17332 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+23:08:04:799  INFO 17332 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+23:08:04:799  INFO 17332 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+23:08:05:130  INFO 17332 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+23:08:05:130  INFO 17332 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@43c84dd9[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+23:08:05:130  INFO 17332 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755788572630_192.168.100.2_53993
+23:08:05:130  INFO 17332 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@7d6749be[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 211]
+23:08:05:147  INFO 17332 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+23:08:05:147  INFO 17332 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+23:08:05:147  INFO 17332 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+23:08:05:149  INFO 17332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+23:08:05:181  INFO 17332 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+23:08:12:161  INFO 11968 --- [main] com.hmall.trade.TradeServiceApplication  : Starting TradeServiceApplication using Java 17 on zhangkuan with PID 11968 (D:\java\springCloudLearn\newnewnewnewnewnew\hmall\trade-service\target\classes started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall)
+23:08:12:161 DEBUG 11968 --- [main] com.hmall.trade.TradeServiceApplication  : Running with Spring Boot v2.7.12, Spring v5.3.27
+23:08:12:161  INFO 11968 --- [main] com.hmall.trade.TradeServiceApplication  : The following 1 profile is active: "local"
+23:08:13:159  INFO 11968 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1d8668a3-7baf-359d-831a-2f8b01e39e6f
+23:08:13:558  INFO 11968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+23:08:13:567  INFO 11968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+23:08:13:568  INFO 11968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+23:08:13:679  INFO 11968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+23:08:13:679  INFO 11968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1473 ms
+23:08:14:278  INFO 11968 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+23:08:14:519  INFO 11968 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'pay-service' URL not provided. Will try picking an instance via load-balancing.
+23:08:14:692  INFO 11968 --- [main] c.a.c.sentinel.SentinelWebMvcConfigurer  : [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+23:08:16:054  INFO 11968 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+23:08:16:089  INFO 11968 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+23:08:17:291  INFO 11968 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+23:08:17:549  INFO 11968 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 25e25f2d-e5d1-40b5-a3ee-34f2ebf20838
+23:08:17:589  INFO 11968 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 3 keys and 6 values 
+23:08:17:609  INFO 11968 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+23:08:17:619  INFO 11968 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+23:08:17:619  WARN 11968 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+23:08:17:633  INFO 11968 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 1 keys and 5 values 
+23:08:17:643  INFO 11968 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+23:08:17:649  INFO 11968 --- [main] org.reflections.Reflections              : Reflections took 4 ms to scan 1 urls, producing 2 keys and 8 values 
+23:08:17:649  WARN 11968 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+23:08:17:649  INFO 11968 --- [main] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] RpcClient init label, labels = {module=naming, source=sdk}
+23:08:17:649  INFO 11968 --- [main] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+23:08:17:649  INFO 11968 --- [main] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+23:08:17:649  INFO 11968 --- [main] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+23:08:17:649  INFO 11968 --- [main] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+23:08:18:300  INFO 11968 --- [main] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755788898412_192.168.100.2_55292
+23:08:18:300  INFO 11968 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Notify connected event to listeners.
+23:08:18:300  INFO 11968 --- [main] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+23:08:18:300  INFO 11968 --- [main] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1192/0x00000008013a51b0
+23:08:18:369  INFO 11968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+23:08:18:380  INFO 11968 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP trade-service 192.168.1.7:8084 register finished
+23:08:18:909  INFO 11968 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Receive server push request, request = NotifySubscriberRequest, requestId = 44
+23:08:18:915  INFO 11968 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Ack server push request, request = NotifySubscriberRequest, requestId = 44
+23:08:19:485  INFO 11968 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+23:08:19:487  INFO 11968 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+23:08:19:492  INFO 11968 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+23:08:19:509  INFO 11968 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+23:08:19:589  INFO 11968 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [192.168.100.130:5672]
+23:08:19:629  INFO 11968 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1c792107:0/SimpleConnection@1c24639e [delegate=amqp://itzk@192.168.100.130:5672/, localPort= 55295]
+23:08:19:719  INFO 11968 --- [main] com.hmall.trade.TradeServiceApplication  : Started TradeServiceApplication in 9.16 seconds (JVM running for 10.04)
+23:08:56:869  INFO 11968 --- [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:08:56:869  INFO 11968 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23:08:56:871  INFO 11968 --- [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+23:08:56:992  INFO 11968 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+23:08:57:228  INFO 11968 --- [http-nio-8084-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+23:08:57:241 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=32368401066 HTTP/1.1
+23:08:57:241 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+23:08:57:241 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+23:08:57:354 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200 (105ms)
+23:08:57:354 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+23:08:57:354 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+23:08:57:354 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Thu, 21 Aug 2025 15:08:57 GMT
+23:08:57:354 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+23:08:57:354 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+23:08:57:354 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+23:08:57:355 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"32368401066","name":"OPPO R17【已降400元+6期免息+私人订制】屏下指纹 拍照游戏手机 全网通 流光蓝（6G+128G） 超值套装","price":1500,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/5159/2/2020/203563/5b95ccabE22f2c561/c9f7b59e1ef2ecec.jpg!q70.jpg.webp","category":"手机","brand":"OPPO","spec":"{\"颜色\": \"紫色\", \"版本\": \"超值套装\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+23:08:57:355 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (466-byte body)
+23:08:57:398 DEBUG 11968 --- [http-nio-8084-exec-1] c.hmall.trade.mapper.OrderMapper.insert  : ==>  Preparing: INSERT INTO `order` ( id, total_fee, payment_type, user_id, status ) VALUES ( ?, ?, ?, ?, ? )
+23:08:57:414 DEBUG 11968 --- [http-nio-8084-exec-1] c.hmall.trade.mapper.OrderMapper.insert  : ==> Parameters: 1958546873701859330(Long), 1500(Integer), 3(Integer), 1(Long), 1(Integer)
+23:08:57:430 DEBUG 11968 --- [http-nio-8084-exec-1] c.hmall.trade.mapper.OrderMapper.insert  : <==    Updates: 1
+23:08:57:444 DEBUG 11968 --- [http-nio-8084-exec-1] c.h.t.mapper.OrderDetailMapper.insert    : ==>  Preparing: INSERT INTO order_detail ( order_id, item_id, num, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+23:08:57:445 DEBUG 11968 --- [http-nio-8084-exec-1] c.h.t.mapper.OrderDetailMapper.insert    : ==> Parameters: 1958546873701859330(Long), 32368401066(Long), 1(Integer), OPPO R17【已降400元+6期免息+私人订制】屏下指纹 拍照游戏手机 全网通 流光蓝（6G+128G） 超值套装(String), {"颜色": "紫色", "版本": "超值套装"}(String), 1500(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/5159/2/2020/203563/5b95ccabE22f2c561/c9f7b59e1ef2ecec.jpg!q70.jpg.webp(String)
+23:08:57:459 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> PUT http://item-service/items/stock/deduct HTTP/1.1
+23:08:57:459 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Length: 34
+23:08:57:459 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Type: application/json
+23:08:57:459 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] user-info: 1
+23:08:57:459 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+23:08:57:459 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] [{"itemId":"32368401066","num":1}]
+23:08:57:459 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> END HTTP (34-byte body)
+23:08:57:649 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- HTTP/1.1 200 (181ms)
+23:08:57:649 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] connection: keep-alive
+23:08:57:649 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] content-length: 0
+23:08:57:649 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] date: Thu, 21 Aug 2025 15:08:57 GMT
+23:08:57:649 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] keep-alive: timeout=60
+23:08:57:649 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+23:08:57:649 DEBUG 11968 --- [http-nio-8084-exec-1] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- END HTTP (0-byte body)
+23:08:57:660  INFO 11968 --- [http-nio-8084-exec-1] c.h.trade.service.impl.OrderServiceImpl  : ---> 往交换机 trade.delay.direct 中发送了一条延时消息, 延时时间:120 s
+23:08:57:660  INFO 11968 --- [http-nio-8084-exec-1] c.h.trade.service.impl.OrderServiceImpl  : 订单id：1958546873701859330
+23:08:57:662  INFO 11968 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : null--->1958546873701859330--->trade.delay.direct and delay.order.query:
+23:08:57:662 DEBUG 11968 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : 发送消息成功，收到 ack!
+23:08:57:766 DEBUG 11968 --- [http-nio-8084-exec-2] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+23:08:57:766 DEBUG 11968 --- [http-nio-8084-exec-2] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958546873701859330(Long)
+23:08:57:808 DEBUG 11968 --- [http-nio-8084-exec-2] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+23:08:57:842  INFO 11968 --- [nacos-grpc-client-executor-19] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Receive server push request, request = NotifySubscriberRequest, requestId = 45
+23:08:57:842  INFO 11968 --- [nacos-grpc-client-executor-19] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Ack server push request, request = NotifySubscriberRequest, requestId = 45
+23:09:00:312  WARN 11968 --- [http-nio-8084-exec-3] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @3cd3e762
+23:09:00:319 DEBUG 11968 --- [http-nio-8084-exec-3] c.h.t.m.OrderDetailMapper.selectList     : ==>  Preparing: SELECT id,order_id,item_id,num,name,spec,price,image,create_time,update_time FROM order_detail WHERE (order_id = ?)
+23:09:00:319 DEBUG 11968 --- [http-nio-8084-exec-3] c.h.t.m.OrderDetailMapper.selectList     : ==> Parameters: 1958546873701859330(Long)
+23:09:00:320 DEBUG 11968 --- [http-nio-8084-exec-3] c.h.t.m.OrderDetailMapper.selectList     : <==      Total: 1
+23:09:00:349  INFO 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.h.trade.listener.PayStatusListener     : 接收到trade.pay.success.queue MQ消息orderId：1958546873701859330
+23:09:00:354 DEBUG 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.hmall.trade.mapper.OrderMapper.update  : ==>  Preparing: UPDATE `order` SET status=?,pay_time=? WHERE (id = ? AND status = ?)
+23:09:00:359 DEBUG 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.hmall.trade.mapper.OrderMapper.update  : ==> Parameters: 2(Integer), 2025-08-21T23:09:00.350562200(LocalDateTime), 1958546873701859330(Long), 1(Integer)
+23:09:00:364 DEBUG 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.hmall.trade.mapper.OrderMapper.update  : <==    Updates: 1
+23:09:00:428 DEBUG 11968 --- [http-nio-8084-exec-4] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+23:09:00:429 DEBUG 11968 --- [http-nio-8084-exec-4] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958546873701859330(Long)
+23:09:00:432 DEBUG 11968 --- [http-nio-8084-exec-4] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+23:10:57:664  INFO 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.t.l.OrderDelayMessageListener        : ---> 交换机 trade.delay.direct 收到了延时消息:1958546873701859330 
+23:10:57:665 DEBUG 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+23:10:57:665 DEBUG 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958546873701859330(Long)
+23:10:57:667 DEBUG 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+23:11:25:730 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> GET http://item-service/items?ids=33200962936&ids=28756072326 HTTP/1.1
+23:11:25:730 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] user-info: 1
+23:11:25:730 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] ---> END HTTP (0-byte body)
+23:11:25:743 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- HTTP/1.1 200 (12ms)
+23:11:25:743 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] connection: keep-alive
+23:11:25:743 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] content-type: application/json
+23:11:25:743 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] date: Thu, 21 Aug 2025 15:11:25 GMT
+23:11:25:743 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] keep-alive: timeout=60
+23:11:25:743 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] transfer-encoding: chunked
+23:11:25:743 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] 
+23:11:25:744 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] [{"id":"28756072326","name":"小米（MI） 小米8 手机 蓝色 全网通(6G + 256G) + 碎屏险服务","price":500,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t24106/346/863971443/127379/b54a738b/5b46c03aN0a41ee65.jpg!q70.jpg.webp","category":"手机","brand":"小米","spec":"{\"颜色\": \"金色\", \"版本\": \"6GB+256GB\"}","sold":0,"commentCount":0,"isAD":false,"status":1},{"id":"33200962936","name":"华为（HUAWEI） 荣耀 畅玩7X手机 铂光金 全网通(4G+32G)","price":200,"stock":10000,"image":"https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/19526/31/2145/387777/5c19d1f0E63f6dad7/fa7b5d5cf6c47b72.jpg!q70.jpg.webp","category":"手机","brand":"华为","spec":"{\"颜色\": \"金色\", \"版本\": \"4GB+32GB\"}","sold":0,"commentCount":0,"isAD":false,"status":1}]
+23:11:25:744 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#queryItemByIds] <--- END HTTP (815-byte body)
+23:11:25:745 DEBUG 11968 --- [http-nio-8084-exec-7] c.hmall.trade.mapper.OrderMapper.insert  : ==>  Preparing: INSERT INTO `order` ( id, total_fee, payment_type, user_id, status ) VALUES ( ?, ?, ?, ?, ? )
+23:11:25:745 DEBUG 11968 --- [http-nio-8084-exec-7] c.hmall.trade.mapper.OrderMapper.insert  : ==> Parameters: 1958547495952023553(Long), 700(Integer), 3(Integer), 1(Long), 1(Integer)
+23:11:25:749 DEBUG 11968 --- [http-nio-8084-exec-7] c.hmall.trade.mapper.OrderMapper.insert  : <==    Updates: 1
+23:11:25:750 DEBUG 11968 --- [http-nio-8084-exec-7] c.h.t.mapper.OrderDetailMapper.insert    : ==>  Preparing: INSERT INTO order_detail ( order_id, item_id, num, name, spec, price, image ) VALUES ( ?, ?, ?, ?, ?, ?, ? )
+23:11:25:750 DEBUG 11968 --- [http-nio-8084-exec-7] c.h.t.mapper.OrderDetailMapper.insert    : ==> Parameters: 1958547495952023553(Long), 28756072326(Long), 1(Integer), 小米（MI） 小米8 手机 蓝色 全网通(6G + 256G) + 碎屏险服务(String), {"颜色": "金色", "版本": "6GB+256GB"}(String), 500(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t24106/346/863971443/127379/b54a738b/5b46c03aN0a41ee65.jpg!q70.jpg.webp(String)
+23:11:25:751 DEBUG 11968 --- [http-nio-8084-exec-7] c.h.t.mapper.OrderDetailMapper.insert    : ==> Parameters: 1958547495952023553(Long), 33200962936(Long), 1(Integer), 华为（HUAWEI） 荣耀 畅玩7X手机 铂光金 全网通(4G+32G)(String), {"颜色": "金色", "版本": "4GB+32GB"}(String), 200(Integer), https://m.360buyimg.com/mobilecms/s720x720_jfs/t1/19526/31/2145/387777/5c19d1f0E63f6dad7/fa7b5d5cf6c47b72.jpg!q70.jpg.webp(String)
+23:11:25:759 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> PUT http://item-service/items/stock/deduct HTTP/1.1
+23:11:25:759 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Length: 67
+23:11:25:759 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] Content-Type: application/json
+23:11:25:759 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] user-info: 1
+23:11:25:759 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+23:11:25:759 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] [{"itemId":"28756072326","num":1},{"itemId":"33200962936","num":1}]
+23:11:25:759 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] ---> END HTTP (67-byte body)
+23:11:26:125 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- HTTP/1.1 200 (366ms)
+23:11:26:125 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] connection: keep-alive
+23:11:26:125 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] content-length: 0
+23:11:26:125 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] date: Thu, 21 Aug 2025 15:11:25 GMT
+23:11:26:125 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] keep-alive: timeout=60
+23:11:26:125 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] 
+23:11:26:125 DEBUG 11968 --- [http-nio-8084-exec-7] com.hmall.api.client.ItemClient          : [ItemClient#deductStock] <--- END HTTP (0-byte body)
+23:11:26:125  INFO 11968 --- [http-nio-8084-exec-7] c.h.trade.service.impl.OrderServiceImpl  : ---> 往交换机 trade.delay.direct 中发送了一条延时消息, 延时时间:120 s
+23:11:26:125  INFO 11968 --- [http-nio-8084-exec-7] c.h.trade.service.impl.OrderServiceImpl  : 订单id：1958547495952023553
+23:11:26:128  INFO 11968 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : null--->1958547495952023553--->trade.delay.direct and delay.order.query:
+23:11:26:128 DEBUG 11968 --- [AMQP Connection 192.168.100.130:5672] c.h.trade.service.impl.OrderServiceImpl  : 发送消息成功，收到 ack!
+23:11:26:191 DEBUG 11968 --- [http-nio-8084-exec-8] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+23:11:26:192 DEBUG 11968 --- [http-nio-8084-exec-8] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958547495952023553(Long)
+23:11:26:194 DEBUG 11968 --- [http-nio-8084-exec-8] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+23:11:29:867 DEBUG 11968 --- [http-nio-8084-exec-9] c.h.t.m.OrderDetailMapper.selectList     : ==>  Preparing: SELECT id,order_id,item_id,num,name,spec,price,image,create_time,update_time FROM order_detail WHERE (order_id = ?)
+23:11:29:867 DEBUG 11968 --- [http-nio-8084-exec-9] c.h.t.m.OrderDetailMapper.selectList     : ==> Parameters: 1958547495952023553(Long)
+23:11:29:869 DEBUG 11968 --- [http-nio-8084-exec-9] c.h.t.m.OrderDetailMapper.selectList     : <==      Total: 2
+23:11:29:897  INFO 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.h.trade.listener.PayStatusListener     : 接收到trade.pay.success.queue MQ消息orderId：1958547495952023553
+23:11:29:899 DEBUG 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.hmall.trade.mapper.OrderMapper.update  : ==>  Preparing: UPDATE `order` SET status=?,pay_time=? WHERE (id = ? AND status = ?)
+23:11:29:900 DEBUG 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.hmall.trade.mapper.OrderMapper.update  : ==> Parameters: 2(Integer), 2025-08-21T23:11:29.897127600(LocalDateTime), 1958547495952023553(Long), 1(Integer)
+23:11:29:905 DEBUG 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] c.hmall.trade.mapper.OrderMapper.update  : <==    Updates: 1
+23:11:29:949 DEBUG 11968 --- [http-nio-8084-exec-10] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+23:11:29:949 DEBUG 11968 --- [http-nio-8084-exec-10] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1958547495952023553(Long)
+23:11:29:951 DEBUG 11968 --- [http-nio-8084-exec-10] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
+23:12:36:531  WARN 11968 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+23:12:36:531  WARN 11968 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+23:12:36:531  WARN 11968 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+23:12:36:531  WARN 11968 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+23:12:36:538  INFO 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+23:12:36:538  INFO 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+23:12:36:538  INFO 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+23:12:36:711  INFO 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+23:12:37:358  INFO 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+23:12:37:358  INFO 11968 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+23:12:37:388  INFO 11968 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+23:12:37:389  INFO 11968 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+23:12:37:573  INFO 11968 --- [nacos-grpc-client-executor-68] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Receive server push request, request = NotifySubscriberRequest, requestId = 48
+23:12:37:578  INFO 11968 --- [nacos-grpc-client-executor-68] com.alibaba.nacos.common.remote.client   : [25e25f2d-e5d1-40b5-a3ee-34f2ebf20838] Ack server push request, request = NotifySubscriberRequest, requestId = 48
+23:12:37:729  INFO 11968 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+23:12:37:729  INFO 11968 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@335d56f3[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+23:12:37:729  INFO 11968 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755788898412_192.168.100.2_55292
+23:12:37:731  INFO 11968 --- [nacos-grpc-client-executor-69] c.a.n.c.remote.client.grpc.GrpcClient    : [1755788898412_192.168.100.2_55292]Ignore complete event,isRunning:false,isAbandon=false
+23:12:37:733  INFO 11968 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5d294a18[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 70]
+23:12:37:749  INFO 11968 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+23:12:37:751  INFO 11968 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+23:12:37:751  INFO 11968 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+23:12:37:751  INFO 11968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+23:12:37:771  INFO 11968 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

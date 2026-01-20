@@ -1,0 +1,1151 @@
+10:02:46:641  INFO 18460 --- [main] com.hmall.item.IndexTest                 : Starting IndexTest using Java 17 on zhangkuan with PID 18460 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+10:02:46:641 DEBUG 18460 --- [main] com.hmall.item.IndexTest                 : Running with Spring Boot v2.7.12, Spring v5.3.27
+10:02:46:641  INFO 18460 --- [main] com.hmall.item.IndexTest                 : The following 1 profile is active: "dev"
+10:02:48:013  INFO 18460 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+10:02:51:135  INFO 18460 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+10:02:51:221  INFO 18460 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+10:02:53:304  INFO 18460 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+10:02:53:458  INFO 18460 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 80963d9f-8d9b-437b-8f8c-2d1febe26a7a
+10:02:53:561  INFO 18460 --- [main] org.reflections.Reflections              : Reflections took 38 ms to scan 1 urls, producing 3 keys and 6 values 
+10:02:53:586  INFO 18460 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 4 keys and 9 values 
+10:02:53:613  INFO 18460 --- [main] org.reflections.Reflections              : Reflections took 27 ms to scan 1 urls, producing 3 keys and 10 values 
+10:02:53:617  WARN 18460 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+10:02:53:633  INFO 18460 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 1 keys and 5 values 
+10:02:53:645  INFO 18460 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 7 values 
+10:02:53:658  INFO 18460 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 2 keys and 8 values 
+10:02:53:660  WARN 18460 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+10:02:53:660  INFO 18460 --- [main] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] RpcClient init label, labels = {module=naming, source=sdk}
+10:02:53:663  INFO 18460 --- [main] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+10:02:53:663  INFO 18460 --- [main] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+10:02:53:663  INFO 18460 --- [main] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+10:02:53:667  INFO 18460 --- [main] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+10:02:54:726  INFO 18460 --- [main] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755482573418_192.168.100.2_53720
+10:02:54:726  INFO 18460 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] Notify connected event to listeners.
+10:02:54:726  INFO 18460 --- [main] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+10:02:54:726  INFO 18460 --- [main] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1394/0x0000000801437ce8
+10:02:54:795  INFO 18460 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+10:02:54:805  INFO 18460 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+10:02:54:837  INFO 18460 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+10:02:55:041  INFO 18460 --- [main] com.hmall.item.IndexTest                 : Started IndexTest in 10.142 seconds (JVM running for 11.397)
+10:02:55:392  INFO 18460 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] Receive server push request, request = NotifySubscriberRequest, requestId = 14
+10:02:55:400  INFO 18460 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [80963d9f-8d9b-437b-8f8c-2d1febe26a7a] Ack server push request, request = NotifySubscriberRequest, requestId = 14
+10:02:55:591  INFO 18460 --- [main] com.hmall.item.IndexTest                 : es连接已创建
+10:02:56:534  INFO 18460 --- [main] com.hmall.item.IndexTest                 : 成功创建items索引库
+10:02:56:540  INFO 18460 --- [main] com.hmall.item.IndexTest                 : es连接已断开
+10:02:56:567  WARN 18460 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+10:02:56:567  WARN 18460 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+10:02:56:570  WARN 18460 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+10:02:56:572  WARN 18460 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+10:02:57:273  INFO 18460 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+10:02:57:273  INFO 18460 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@20e82701[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+10:02:57:273  INFO 18460 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755482573418_192.168.100.2_53720
+10:02:57:273  INFO 18460 --- [nacos-grpc-client-executor-11] c.a.n.c.remote.client.grpc.GrpcClient    : [1755482573418_192.168.100.2_53720]Ignore complete event,isRunning:false,isAbandon=false
+10:02:57:279  INFO 18460 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@b565257[Running, pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12]
+10:03:14:505  INFO 13440 --- [main] com.hmall.item.IndexTest                 : Starting IndexTest using Java 17 on zhangkuan with PID 13440 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+10:03:14:507 DEBUG 13440 --- [main] com.hmall.item.IndexTest                 : Running with Spring Boot v2.7.12, Spring v5.3.27
+10:03:14:507  INFO 13440 --- [main] com.hmall.item.IndexTest                 : The following 1 profile is active: "dev"
+10:03:15:627  INFO 13440 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+10:03:18:717  INFO 13440 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+10:03:18:810  INFO 13440 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+10:03:20:968  INFO 13440 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+10:03:21:084  INFO 13440 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of f06c1122-639b-45bc-acfb-e9e20eac40c6
+10:03:21:167  INFO 13440 --- [main] org.reflections.Reflections              : Reflections took 33 ms to scan 1 urls, producing 3 keys and 6 values 
+10:03:21:200  INFO 13440 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 4 keys and 9 values 
+10:03:21:211  INFO 13440 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 3 keys and 10 values 
+10:03:21:216  WARN 13440 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+10:03:21:218  INFO 13440 --- [main] org.reflections.Reflections              : Reflections took 1 ms to scan 1 urls, producing 1 keys and 5 values 
+10:03:21:233  INFO 13440 --- [main] org.reflections.Reflections              : Reflections took 15 ms to scan 1 urls, producing 1 keys and 7 values 
+10:03:21:255  INFO 13440 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 2 keys and 8 values 
+10:03:21:257  WARN 13440 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+10:03:21:257  INFO 13440 --- [main] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] RpcClient init label, labels = {module=naming, source=sdk}
+10:03:21:257  INFO 13440 --- [main] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+10:03:21:257  INFO 13440 --- [main] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+10:03:21:257  INFO 13440 --- [main] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+10:03:21:261  INFO 13440 --- [main] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+10:03:22:215  INFO 13440 --- [main] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755482600858_192.168.100.2_53742
+10:03:22:217  INFO 13440 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] Notify connected event to listeners.
+10:03:22:217  INFO 13440 --- [main] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+10:03:22:217  INFO 13440 --- [main] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1395/0x0000000801437740
+10:03:22:279  INFO 13440 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+10:03:22:283  INFO 13440 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+10:03:22:317  INFO 13440 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+10:03:22:522  INFO 13440 --- [main] com.hmall.item.IndexTest                 : Started IndexTest in 9.594 seconds (JVM running for 10.844)
+10:03:22:771  INFO 13440 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] Receive server push request, request = NotifySubscriberRequest, requestId = 15
+10:03:22:785  INFO 13440 --- [nacos-grpc-client-executor-6] com.alibaba.nacos.common.remote.client   : [f06c1122-639b-45bc-acfb-e9e20eac40c6] Ack server push request, request = NotifySubscriberRequest, requestId = 15
+10:03:22:983  INFO 13440 --- [main] com.hmall.item.IndexTest                 : es连接已创建
+10:03:23:049  INFO 13440 --- [main] com.hmall.item.IndexTest                 : es连接已断开
+10:03:23:064  WARN 13440 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+10:03:23:064  WARN 13440 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+10:03:23:065  WARN 13440 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+10:03:23:066  WARN 13440 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+10:03:23:416  INFO 13440 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+10:03:23:416  INFO 13440 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@1224a463[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+10:03:23:416  INFO 13440 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755482600858_192.168.100.2_53742
+10:03:23:416  INFO 13440 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@381a6b6d[Running, pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 9]
+10:06:59:213  INFO 19024 --- [main] com.hmall.item.DocumentTest              : Starting DocumentTest using Java 17 on zhangkuan with PID 19024 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+10:06:59:213 DEBUG 19024 --- [main] com.hmall.item.DocumentTest              : Running with Spring Boot v2.7.12, Spring v5.3.27
+10:06:59:213  INFO 19024 --- [main] com.hmall.item.DocumentTest              : The following 1 profile is active: "local"
+10:07:00:374  INFO 19024 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+10:07:03:329  INFO 19024 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+10:07:03:405  INFO 19024 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+10:07:05:292  INFO 19024 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+10:07:05:412  INFO 19024 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 11e682b1-33fb-4fd1-8cd8-aceed592c877
+10:07:05:477  INFO 19024 --- [main] org.reflections.Reflections              : Reflections took 38 ms to scan 1 urls, producing 3 keys and 6 values 
+10:07:05:507  INFO 19024 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 4 keys and 9 values 
+10:07:05:524  INFO 19024 --- [main] org.reflections.Reflections              : Reflections took 17 ms to scan 1 urls, producing 3 keys and 10 values 
+10:07:05:524  WARN 19024 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+10:07:05:540  INFO 19024 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 1 keys and 5 values 
+10:07:05:552  INFO 19024 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 1 keys and 7 values 
+10:07:05:555  INFO 19024 --- [main] org.reflections.Reflections              : Reflections took 0 ms to scan 1 urls, producing 2 keys and 8 values 
+10:07:05:555  WARN 19024 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+10:07:05:555  INFO 19024 --- [main] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] RpcClient init label, labels = {module=naming, source=sdk}
+10:07:05:566  INFO 19024 --- [main] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+10:07:05:566  INFO 19024 --- [main] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+10:07:05:566  INFO 19024 --- [main] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+10:07:05:566  INFO 19024 --- [main] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+10:07:06:475  INFO 19024 --- [main] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755482825190_192.168.100.2_53844
+10:07:06:477  INFO 19024 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] Notify connected event to listeners.
+10:07:06:477  INFO 19024 --- [main] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+10:07:06:481  INFO 19024 --- [main] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1395/0x0000000801437220
+10:07:06:539  INFO 19024 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+10:07:06:555  INFO 19024 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+10:07:06:581  INFO 19024 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+10:07:06:765  INFO 19024 --- [main] com.hmall.item.DocumentTest              : Started DocumentTest in 9.137 seconds (JVM running for 10.204)
+10:07:07:119  INFO 19024 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] Receive server push request, request = NotifySubscriberRequest, requestId = 16
+10:07:07:130  INFO 19024 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [11e682b1-33fb-4fd1-8cd8-aceed592c877] Ack server push request, request = NotifySubscriberRequest, requestId = 16
+10:07:07:307  WARN 19024 --- [main] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @2344fc66
+10:07:07:378  INFO 19024 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+10:07:07:635  INFO 19024 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+10:07:07:642 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:07:668 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:07:725 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:07:741 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?
+10:07:07:741 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 1000(Long)
+10:07:07:908 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:07:910  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第1页数据，共1000条
+10:07:10:169 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:10:169 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:10:188 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:10:190 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:10:190 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 1000(Long), 1000(Long)
+10:07:10:217 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:10:217  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第2页数据，共1000条
+10:07:10:899 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:10:899 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:10:932 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:10:932 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:10:932 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 2000(Long), 1000(Long)
+10:07:10:968 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:10:968  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第3页数据，共1000条
+10:07:11:546 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:11:546 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:11:585 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:11:586 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:11:586 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 3000(Long), 1000(Long)
+10:07:11:617 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:11:617  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第4页数据，共1000条
+10:07:12:592 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:12:592 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:12:623 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:12:624 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:12:624 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 4000(Long), 1000(Long)
+10:07:12:673 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:12:673  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第5页数据，共1000条
+10:07:13:256 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:13:256 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:13:314 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:13:314 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:13:316 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 5000(Long), 1000(Long)
+10:07:13:355 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:13:357  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第6页数据，共1000条
+10:07:13:779 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:13:779 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:13:806 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:13:807 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:13:807 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 6000(Long), 1000(Long)
+10:07:13:855 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:13:855  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第7页数据，共1000条
+10:07:14:283 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:14:285 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:14:324 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:14:324 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:14:326 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 7000(Long), 1000(Long)
+10:07:14:388 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:14:388  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第8页数据，共1000条
+10:07:14:764 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:14:764 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:14:791 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:14:792 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:14:792 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 8000(Long), 1000(Long)
+10:07:14:850 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:14:851  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第9页数据，共1000条
+10:07:15:216 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:15:216 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:15:232 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:15:232 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:15:232 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 9000(Long), 1000(Long)
+10:07:15:266 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:15:266  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第10页数据，共1000条
+10:07:15:527 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:15:527 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:15:547 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:15:547 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:15:547 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 10000(Long), 1000(Long)
+10:07:15:579 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:15:579  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第11页数据，共1000条
+10:07:15:926 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:15:942 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:15:969 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:15:969 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:15:970 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 11000(Long), 1000(Long)
+10:07:16:037 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:16:037  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第12页数据，共1000条
+10:07:16:245 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:16:245 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:16:267 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:16:267 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:16:267 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 12000(Long), 1000(Long)
+10:07:16:306 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:16:306  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第13页数据，共1000条
+10:07:16:511 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:16:511 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:16:536 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:16:536 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:16:536 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 13000(Long), 1000(Long)
+10:07:16:575 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:16:575  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第14页数据，共1000条
+10:07:16:787 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:16:787 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:16:804 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:16:804 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:16:805 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 14000(Long), 1000(Long)
+10:07:16:845 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:16:848  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第15页数据，共1000条
+10:07:17:131 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:17:131 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:17:160 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:17:160 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:17:161 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 15000(Long), 1000(Long)
+10:07:17:216 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:17:216  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第16页数据，共1000条
+10:07:17:333 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:17:333 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:17:349 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:17:351 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:17:351 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 16000(Long), 1000(Long)
+10:07:17:397 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:17:397  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第17页数据，共1000条
+10:07:17:549 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:17:549 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:17:567 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:17:567 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:17:567 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 17000(Long), 1000(Long)
+10:07:17:613 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:17:613  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第18页数据，共1000条
+10:07:17:725 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:17:725 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:17:741 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:17:741 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:17:741 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 18000(Long), 1000(Long)
+10:07:17:786 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:17:786  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第19页数据，共1000条
+10:07:17:992 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:17:992 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:18:027 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:18:027 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:18:027 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 19000(Long), 1000(Long)
+10:07:18:125 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:18:125  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第20页数据，共1000条
+10:07:18:406 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:18:406 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:18:461 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:18:463 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:18:463 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 20000(Long), 1000(Long)
+10:07:18:516 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:18:516  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第21页数据，共1000条
+10:07:18:621 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:18:622 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:18:638 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:18:638 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:18:638 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 21000(Long), 1000(Long)
+10:07:18:693 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:18:693  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第22页数据，共1000条
+10:07:18:818 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:18:818 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:18:835 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:18:835 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:18:836 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 22000(Long), 1000(Long)
+10:07:18:897 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:18:897  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第23页数据，共1000条
+10:07:18:995 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:18:995 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:19:014 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:19:015 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:19:015 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 23000(Long), 1000(Long)
+10:07:19:070 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:19:070  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第24页数据，共1000条
+10:07:19:227 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:19:227 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:19:256 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:19:256 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:19:256 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 24000(Long), 1000(Long)
+10:07:19:307 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:19:307  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第25页数据，共1000条
+10:07:19:410 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:19:412 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:19:427 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:19:428 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:19:428 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 25000(Long), 1000(Long)
+10:07:19:489 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:19:489  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第26页数据，共1000条
+10:07:19:629 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:19:629 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:19:644 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:19:645 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:19:645 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 26000(Long), 1000(Long)
+10:07:19:693 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:19:693  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第27页数据，共1000条
+10:07:19:802 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:19:802 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:19:819 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:19:819 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:19:819 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 27000(Long), 1000(Long)
+10:07:19:885 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:19:885  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第28页数据，共1000条
+10:07:19:979 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:19:981 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:19:996 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:19:996 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:19:998 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 28000(Long), 1000(Long)
+10:07:20:059 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:20:059  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第29页数据，共1000条
+10:07:20:174 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:20:174 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:20:194 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:20:195 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:20:195 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 29000(Long), 1000(Long)
+10:07:20:251 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:20:251  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第30页数据，共1000条
+10:07:20:356 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:20:356 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:20:373 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:20:374 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:20:374 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 30000(Long), 1000(Long)
+10:07:20:444 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:20:444  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第31页数据，共1000条
+10:07:20:538 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:20:538 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:20:555 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:20:555 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:20:555 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 31000(Long), 1000(Long)
+10:07:20:644 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:20:644  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第32页数据，共1000条
+10:07:20:772 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:20:772 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:20:792 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:20:792 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:20:792 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 32000(Long), 1000(Long)
+10:07:20:861 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:20:861  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第33页数据，共1000条
+10:07:20:979 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:20:979 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:20:995 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:20:997 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:20:998 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 33000(Long), 1000(Long)
+10:07:21:091 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:21:091  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第34页数据，共1000条
+10:07:21:183 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:21:185 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:21:201 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:21:201 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:21:201 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 34000(Long), 1000(Long)
+10:07:21:269 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:21:269  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第35页数据，共1000条
+10:07:21:368 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:21:368 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:21:393 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:21:393 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:21:393 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 35000(Long), 1000(Long)
+10:07:21:477 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:21:477  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第36页数据，共1000条
+10:07:21:663 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:21:663 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:21:697 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:21:697 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:21:697 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 36000(Long), 1000(Long)
+10:07:21:877 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:21:877  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第37页数据，共1000条
+10:07:21:980 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:21:980 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:22:003 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:22:003 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:22:003 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 37000(Long), 1000(Long)
+10:07:22:088 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:22:088  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第38页数据，共1000条
+10:07:22:234 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:22:234 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:22:253 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:22:253 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:22:253 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 38000(Long), 1000(Long)
+10:07:22:328 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:22:328  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第39页数据，共1000条
+10:07:22:428 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:22:428 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:22:445 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:22:445 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:22:445 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 39000(Long), 1000(Long)
+10:07:22:531 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:22:531  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第40页数据，共1000条
+10:07:22:653 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:22:653 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:22:669 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:22:669 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:22:669 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 40000(Long), 1000(Long)
+10:07:22:752 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:22:752  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第41页数据，共1000条
+10:07:22:847 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:22:847 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:22:864 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:22:864 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:22:864 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 41000(Long), 1000(Long)
+10:07:22:945 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:22:945  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第42页数据，共1000条
+10:07:23:045 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:23:046 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:23:061 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:23:063 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:23:063 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 42000(Long), 1000(Long)
+10:07:23:151 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:23:151  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第43页数据，共1000条
+10:07:23:307 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:23:307 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:23:330 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:23:331 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:23:331 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 43000(Long), 1000(Long)
+10:07:23:433 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:23:433  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第44页数据，共1000条
+10:07:23:600 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:23:600 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:23:625 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:23:625 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:23:625 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 44000(Long), 1000(Long)
+10:07:23:902 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:23:902  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第45页数据，共1000条
+10:07:24:032 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:24:032 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:24:050 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:24:050 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:24:050 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 45000(Long), 1000(Long)
+10:07:24:155 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:24:155  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第46页数据，共1000条
+10:07:24:290 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:24:290 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:24:305 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:24:306 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:24:306 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 46000(Long), 1000(Long)
+10:07:24:409 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:24:409  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第47页数据，共1000条
+10:07:24:497 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:24:497 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:24:513 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:24:515 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:24:515 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 47000(Long), 1000(Long)
+10:07:24:617 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:24:617  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第48页数据，共1000条
+10:07:24:712 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:24:712 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:24:730 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:24:732 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:24:732 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 48000(Long), 1000(Long)
+10:07:24:825 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:24:825  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第49页数据，共1000条
+10:07:24:959 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:24:959 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:24:975 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:24:975 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:24:977 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 49000(Long), 1000(Long)
+10:07:25:084 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:25:084  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第50页数据，共1000条
+10:07:25:300 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:25:300 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:25:317 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:25:317 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:25:317 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 50000(Long), 1000(Long)
+10:07:25:420 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:25:420  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第51页数据，共1000条
+10:07:25:555 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:25:555 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:25:576 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:25:576 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:25:576 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 51000(Long), 1000(Long)
+10:07:25:675 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:25:675  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第52页数据，共1000条
+10:07:25:835 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:25:835 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:25:872 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:25:873 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:25:873 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 52000(Long), 1000(Long)
+10:07:26:115 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:26:115  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第53页数据，共1000条
+10:07:26:265 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:26:265 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:26:281 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:26:297 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:26:297 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 53000(Long), 1000(Long)
+10:07:26:413 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:26:413  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第54页数据，共1000条
+10:07:26:507 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:26:507 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:26:523 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:26:525 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:26:525 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 54000(Long), 1000(Long)
+10:07:26:632 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:26:632  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第55页数据，共1000条
+10:07:26:727 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:26:727 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:26:745 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:26:745 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:26:745 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 55000(Long), 1000(Long)
+10:07:26:854 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:26:854  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第56页数据，共1000条
+10:07:26:963 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:26:963 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:27:016 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:27:016 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:27:016 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 56000(Long), 1000(Long)
+10:07:27:154 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:27:154  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第57页数据，共1000条
+10:07:27:328 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:27:328 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:27:356 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:27:356 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:27:356 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 57000(Long), 1000(Long)
+10:07:27:471 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:27:471  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第58页数据，共1000条
+10:07:27:600 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:27:600 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:27:618 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:27:618 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:27:618 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 58000(Long), 1000(Long)
+10:07:27:729 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:27:729  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第59页数据，共1000条
+10:07:27:859 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:27:859 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:27:875 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:27:875 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:27:875 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 59000(Long), 1000(Long)
+10:07:27:993 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:27:993  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第60页数据，共1000条
+10:07:28:161 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:28:161 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:28:169 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:28:186 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:28:186 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 60000(Long), 1000(Long)
+10:07:28:358 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:28:358  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第61页数据，共1000条
+10:07:28:453 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:28:453 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:28:469 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:28:469 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:28:470 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 61000(Long), 1000(Long)
+10:07:28:591 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:28:591  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第62页数据，共1000条
+10:07:28:678 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:28:678 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:28:702 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:28:702 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:28:702 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 62000(Long), 1000(Long)
+10:07:28:831 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:28:831  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第63页数据，共1000条
+10:07:28:953 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:28:953 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:28:969 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:28:969 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:28:969 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 63000(Long), 1000(Long)
+10:07:29:093 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:29:093  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第64页数据，共1000条
+10:07:29:223 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:29:225 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:29:243 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:29:243 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:29:243 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 64000(Long), 1000(Long)
+10:07:29:374 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:29:374  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第65页数据，共1000条
+10:07:29:452 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:29:452 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:29:476 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:29:476 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:29:476 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 65000(Long), 1000(Long)
+10:07:29:607 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:29:607  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第66页数据，共1000条
+10:07:29:742 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:29:742 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:29:762 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:29:762 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:29:762 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 66000(Long), 1000(Long)
+10:07:29:892 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:29:892  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第67页数据，共1000条
+10:07:29:975 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:29:975 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:29:997 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:29:997 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:29:997 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 67000(Long), 1000(Long)
+10:07:30:139 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:30:139  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第68页数据，共1000条
+10:07:30:258 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:30:258 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:30:274 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:30:274 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:30:274 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 68000(Long), 1000(Long)
+10:07:30:402 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:30:402  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第69页数据，共1000条
+10:07:30:568 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:30:568 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:30:591 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:30:591 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:30:591 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 69000(Long), 1000(Long)
+10:07:30:735 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:30:735  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第70页数据，共1000条
+10:07:30:816 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:30:816 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:30:837 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:30:837 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:30:837 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 70000(Long), 1000(Long)
+10:07:30:985 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:30:985  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第71页数据，共1000条
+10:07:31:079 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:31:079 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:31:095 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:31:097 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:31:097 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 71000(Long), 1000(Long)
+10:07:31:260 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:31:260  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第72页数据，共1000条
+10:07:31:568 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:31:568 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:31:586 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:31:586 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:31:586 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 72000(Long), 1000(Long)
+10:07:31:734 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:31:734  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第73页数据，共1000条
+10:07:31:861 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:31:861 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:31:878 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:31:878 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:31:878 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 73000(Long), 1000(Long)
+10:07:32:029 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:32:029  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第74页数据，共1000条
+10:07:32:132 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:32:132 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:32:148 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:32:148 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:32:149 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 74000(Long), 1000(Long)
+10:07:32:335 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:32:335  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第75页数据，共1000条
+10:07:32:508 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:32:508 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:32:525 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:32:525 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:32:525 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 75000(Long), 1000(Long)
+10:07:32:700 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:32:700  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第76页数据，共1000条
+10:07:32:806 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:32:806 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:32:823 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:32:823 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:32:823 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 76000(Long), 1000(Long)
+10:07:32:971 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:32:971  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第77页数据，共1000条
+10:07:33:083 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:33:083 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:33:099 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:33:099 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:33:099 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 77000(Long), 1000(Long)
+10:07:33:256 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:33:256  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第78页数据，共1000条
+10:07:33:365 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:33:365 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:33:381 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:33:383 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:33:383 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 78000(Long), 1000(Long)
+10:07:33:693 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:33:693  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第79页数据，共1000条
+10:07:33:796 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:33:796 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:33:812 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:33:812 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:33:814 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 79000(Long), 1000(Long)
+10:07:33:973 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:33:973  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第80页数据，共1000条
+10:07:34:081 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:34:081 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:34:099 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:34:099 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:34:099 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 80000(Long), 1000(Long)
+10:07:34:266 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:34:268  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第81页数据，共1000条
+10:07:34:391 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:34:391 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:34:403 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:34:403 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:34:403 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 81000(Long), 1000(Long)
+10:07:34:609 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:34:609  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第82页数据，共1000条
+10:07:34:737 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:34:737 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:34:753 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:34:755 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:34:755 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 82000(Long), 1000(Long)
+10:07:34:925 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:34:925  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第83页数据，共1000条
+10:07:35:064 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:35:064 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:35:085 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:35:085 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:35:085 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 83000(Long), 1000(Long)
+10:07:35:279 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:35:279  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第84页数据，共1000条
+10:07:35:467 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:35:467 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:35:485 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:35:485 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:35:485 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 84000(Long), 1000(Long)
+10:07:35:700 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:35:700  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第85页数据，共1000条
+10:07:35:800 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:35:800 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:35:819 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:35:820 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:35:820 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 85000(Long), 1000(Long)
+10:07:35:983 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:35:983  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第86页数据，共1000条
+10:07:36:096 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:36:096 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:36:113 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:36:113 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:36:113 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 86000(Long), 1000(Long)
+10:07:36:284 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:36:284  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第87页数据，共1000条
+10:07:36:400 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:36:400 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:36:420 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:36:420 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:36:420 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 87000(Long), 1000(Long)
+10:07:36:648 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 1000
+10:07:36:648  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第88页数据，共1000条
+10:07:36:765 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:36:765 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:36:798 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:36:798 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==>  Preparing: SELECT id,name,price,stock,image,category,brand,spec,sold,comment_count,isAD,status,create_time,update_time,creater,updater FROM item WHERE (status = ?) LIMIT ?,?
+10:07:36:798 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : ==> Parameters: 1(Integer), 88000(Long), 1000(Long)
+10:07:36:971 DEBUG 19024 --- [main] c.h.item.mapper.ItemMapper.selectPage    : <==      Total: 476
+10:07:36:971  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 加载第89页数据，共476条
+10:07:37:038 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==>  Preparing: SELECT COUNT(*) AS total FROM item WHERE (status = ?)
+10:07:37:038 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : ==> Parameters: 1(Integer)
+10:07:37:053 DEBUG 19024 --- [main] c.h.i.m.ItemMapper.selectPage_mpCount    : <==      Total: 1
+10:07:37:053  INFO 19024 --- [main] com.hmall.item.DocumentTest              : 成功添加数据88476条数据到--->items
+10:07:37:073  WARN 19024 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+10:07:37:073  WARN 19024 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+10:07:37:073  WARN 19024 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+10:07:37:074  WARN 19024 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+10:07:37:423  INFO 19024 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+10:07:37:423  INFO 19024 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@fd50911[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+10:07:37:423  INFO 19024 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755482825190_192.168.100.2_53844
+10:07:37:426  INFO 19024 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@6323fa89[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 17]
+10:07:37:426  INFO 19024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+10:07:37:561  INFO 19024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+14:45:40:515  INFO 16464 --- [main] com.hmall.item.DocumentTest              : Starting DocumentTest using Java 17 on zhangkuan with PID 16464 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+14:45:40:515 DEBUG 16464 --- [main] com.hmall.item.DocumentTest              : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:45:40:515  INFO 16464 --- [main] com.hmall.item.DocumentTest              : The following 1 profile is active: "local"
+14:45:41:899  INFO 16464 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+14:45:44:850  INFO 16464 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:45:44:941  INFO 16464 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:45:46:982  INFO 16464 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:45:47:093  INFO 16464 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of e48ebf24-d32e-4871-8ebb-e0940a2c1f5f
+14:45:47:188  INFO 16464 --- [main] org.reflections.Reflections              : Reflections took 47 ms to scan 1 urls, producing 3 keys and 6 values 
+14:45:47:236  INFO 16464 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 4 keys and 9 values 
+14:45:47:252  INFO 16464 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 3 keys and 10 values 
+14:45:47:255  WARN 16464 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:45:47:262  INFO 16464 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 1 keys and 5 values 
+14:45:47:273  INFO 16464 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 7 values 
+14:45:47:281  INFO 16464 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+14:45:47:284  WARN 16464 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:45:47:284  INFO 16464 --- [main] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] RpcClient init label, labels = {module=naming, source=sdk}
+14:45:47:288  INFO 16464 --- [main] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:45:47:288  INFO 16464 --- [main] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:45:47:288  INFO 16464 --- [main] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:45:47:288  INFO 16464 --- [main] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+14:45:48:240  INFO 16464 --- [main] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755499547032_192.168.100.2_59098
+14:45:48:242  INFO 16464 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] Notify connected event to listeners.
+14:45:48:242  INFO 16464 --- [main] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:45:48:242  INFO 16464 --- [main] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1395/0x0000000801436de0
+14:45:48:295  INFO 16464 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:45:48:297  INFO 16464 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:45:48:335  INFO 16464 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:45:48:530  INFO 16464 --- [main] com.hmall.item.DocumentTest              : Started DocumentTest in 9.702 seconds (JVM running for 11.073)
+14:45:48:836  INFO 16464 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] Receive server push request, request = NotifySubscriberRequest, requestId = 10
+14:45:48:851  INFO 16464 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [e48ebf24-d32e-4871-8ebb-e0940a2c1f5f] Ack server push request, request = NotifySubscriberRequest, requestId = 10
+14:45:49:285  WARN 16464 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:45:49:285  WARN 16464 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:45:49:290  WARN 16464 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:45:49:290  WARN 16464 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:45:49:972  INFO 16464 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:45:49:972  INFO 16464 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@71f0675a[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:45:49:972  INFO 16464 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755499547032_192.168.100.2_59098
+14:45:49:977  INFO 16464 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5bfb7c34[Running, pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12]
+14:46:03:949  INFO 17384 --- [main] com.hmall.item.DocumentTest              : Starting DocumentTest using Java 17 on zhangkuan with PID 17384 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+14:46:03:949 DEBUG 17384 --- [main] com.hmall.item.DocumentTest              : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:46:03:949  INFO 17384 --- [main] com.hmall.item.DocumentTest              : The following 1 profile is active: "local"
+14:46:05:193  INFO 17384 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+14:46:08:308  INFO 17384 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:46:08:410  INFO 17384 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:46:10:450  INFO 17384 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:46:10:596  INFO 17384 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of b9a187c0-9efd-494f-bb1f-cdae581d00d8
+14:46:10:670  INFO 17384 --- [main] org.reflections.Reflections              : Reflections took 38 ms to scan 1 urls, producing 3 keys and 6 values 
+14:46:10:706  INFO 17384 --- [main] org.reflections.Reflections              : Reflections took 23 ms to scan 1 urls, producing 4 keys and 9 values 
+14:46:10:721  INFO 17384 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+14:46:10:725  WARN 17384 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:46:10:736  INFO 17384 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 1 keys and 5 values 
+14:46:10:743  INFO 17384 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 1 keys and 7 values 
+14:46:10:763  INFO 17384 --- [main] org.reflections.Reflections              : Reflections took 20 ms to scan 1 urls, producing 2 keys and 8 values 
+14:46:10:765  WARN 17384 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:46:10:765  INFO 17384 --- [main] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] RpcClient init label, labels = {module=naming, source=sdk}
+14:46:10:765  INFO 17384 --- [main] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:46:10:765  INFO 17384 --- [main] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:46:10:765  INFO 17384 --- [main] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:46:10:771  INFO 17384 --- [main] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+14:46:11:694  INFO 17384 --- [main] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755499570457_192.168.100.2_59116
+14:46:11:694  INFO 17384 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Notify connected event to listeners.
+14:46:11:694  INFO 17384 --- [main] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:46:11:694  INFO 17384 --- [main] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1394/0x0000000801437240
+14:46:11:757  INFO 17384 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:46:11:757  INFO 17384 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:46:11:802  INFO 17384 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:46:12:001  INFO 17384 --- [main] com.hmall.item.DocumentTest              : Started DocumentTest in 9.758 seconds (JVM running for 11.116)
+14:46:12:294  INFO 17384 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Receive server push request, request = NotifySubscriberRequest, requestId = 11
+14:46:12:308  INFO 17384 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Ack server push request, request = NotifySubscriberRequest, requestId = 11
+14:47:57:128  INFO 17384 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Receive server push request, request = ClientDetectionRequest, requestId = 12
+14:47:57:128  INFO 17384 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Ack server push request, request = ClientDetectionRequest, requestId = 12
+14:47:57:130 ERROR 17384 --- [com.alibaba.nacos.client.naming.updater.0] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={}, requestId='null'}, retryTimes = 0, errorMessage = java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 101414 milliseconds, 104200 nanoseconds delay) but future completed as timeout expired
+14:47:57:137  INFO 17384 --- [nacos-grpc-client-executor-10] c.a.n.c.remote.client.grpc.GrpcClient    : [1755499570457_192.168.100.2_59116]Ignore complete event,isRunning:false,isAbandon=false
+14:47:57:137  INFO 17384 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Server healthy check fail, currentConnection = 1755499570457_192.168.100.2_59116
+14:47:57:137  INFO 17384 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+14:47:57:156  WARN 17384 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:47:57:156  WARN 17384 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:47:57:161  WARN 17384 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:47:57:161  WARN 17384 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:47:57:273 ERROR 17384 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Send request fail, request = SubscribeServiceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 0, errorMessage = Client not connected, current status:UNHEALTHY
+14:47:57:290  INFO 17384 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Success to connect a server [192.168.100.130:8848], connectionId = 1755499676128_192.168.100.2_59170
+14:47:57:290  INFO 17384 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Abandon prev connection, server is 192.168.100.130:8848, connectionId is 1755499570457_192.168.100.2_59116
+14:47:57:290  INFO 17384 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1755499570457_192.168.100.2_59116
+14:47:57:292  INFO 17384 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Notify disconnected event to listeners
+14:47:57:292  INFO 17384 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Notify connected event to listeners.
+14:47:57:292  INFO 17384 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [b9a187c0-9efd-494f-bb1f-cdae581d00d8] Server check success, currentServer is 192.168.100.130:8848 
+14:47:57:384 ERROR 17384 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Send request fail, request = SubscribeServiceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:UNHEALTHY
+14:47:57:733  INFO 17384 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:47:57:733  INFO 17384 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@44224852[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:47:57:733  INFO 17384 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755499676128_192.168.100.2_59170
+14:47:57:739  INFO 17384 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@747e0ae9[Running, pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 17]
+14:54:03:260  INFO 8832 --- [main] com.hmall.item.DocumentTest              : Starting DocumentTest using Java 17 on zhangkuan with PID 8832 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+14:54:03:261 DEBUG 8832 --- [main] com.hmall.item.DocumentTest              : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:54:03:261  INFO 8832 --- [main] com.hmall.item.DocumentTest              : The following 1 profile is active: "local"
+14:54:04:585  INFO 8832 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+14:54:07:952  INFO 8832 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:54:08:046  INFO 8832 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:54:10:103  INFO 8832 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:54:10:249  INFO 8832 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 2580bfb3-8797-42cd-a8cd-26fa02eba09b
+14:54:10:321  INFO 8832 --- [main] org.reflections.Reflections              : Reflections took 37 ms to scan 1 urls, producing 3 keys and 6 values 
+14:54:10:355  INFO 8832 --- [main] org.reflections.Reflections              : Reflections took 15 ms to scan 1 urls, producing 4 keys and 9 values 
+14:54:10:371  INFO 8832 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 3 keys and 10 values 
+14:54:10:371  WARN 8832 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:54:10:371  INFO 8832 --- [main] org.reflections.Reflections              : Reflections took 0 ms to scan 1 urls, producing 1 keys and 5 values 
+14:54:10:387  INFO 8832 --- [main] org.reflections.Reflections              : Reflections took 0 ms to scan 1 urls, producing 1 keys and 7 values 
+14:54:10:403  INFO 8832 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 2 keys and 8 values 
+14:54:10:403  WARN 8832 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:54:10:403  INFO 8832 --- [main] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] RpcClient init label, labels = {module=naming, source=sdk}
+14:54:10:417  INFO 8832 --- [main] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:54:10:417  INFO 8832 --- [main] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:54:10:417  INFO 8832 --- [main] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:54:10:419  INFO 8832 --- [main] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+14:54:11:368  INFO 8832 --- [main] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755500050141_192.168.100.2_59409
+14:54:11:370  INFO 8832 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] Notify connected event to listeners.
+14:54:11:370  INFO 8832 --- [main] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:54:11:370  INFO 8832 --- [main] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1394/0x0000000801415f50
+14:54:11:420  INFO 8832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:54:11:420  INFO 8832 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:54:11:466  INFO 8832 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:54:11:652  INFO 8832 --- [main] com.hmall.item.DocumentTest              : Started DocumentTest in 10.085 seconds (JVM running for 11.561)
+14:54:11:990  INFO 8832 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] Receive server push request, request = NotifySubscriberRequest, requestId = 13
+14:54:12:002  INFO 8832 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [2580bfb3-8797-42cd-a8cd-26fa02eba09b] Ack server push request, request = NotifySubscriberRequest, requestId = 13
+14:54:12:430  WARN 8832 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:54:12:430  WARN 8832 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:54:12:432  WARN 8832 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:54:12:432  WARN 8832 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:54:13:116  INFO 8832 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:54:13:116  INFO 8832 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@27dc99bb[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:54:13:116  INFO 8832 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755500050141_192.168.100.2_59409
+14:54:13:116  INFO 8832 --- [nacos-grpc-client-executor-11] c.a.n.c.remote.client.grpc.GrpcClient    : [1755500050141_192.168.100.2_59409]Ignore complete event,isRunning:false,isAbandon=false
+14:54:13:122  INFO 8832 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@63296c83[Running, pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12]
+14:55:12:927  INFO 17236 --- [main] com.hmall.item.DocumentTest              : Starting DocumentTest using Java 17 on zhangkuan with PID 17236 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+14:55:12:932 DEBUG 17236 --- [main] com.hmall.item.DocumentTest              : Running with Spring Boot v2.7.12, Spring v5.3.27
+14:55:12:932  INFO 17236 --- [main] com.hmall.item.DocumentTest              : The following 1 profile is active: "local"
+14:55:14:668  INFO 17236 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+14:55:18:551  INFO 17236 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:55:18:645  INFO 17236 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+14:55:21:069  INFO 17236 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+14:55:21:194  INFO 17236 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of bf758e98-4cc4-494c-8b4d-0dc1427c4bf9
+14:55:21:273  INFO 17236 --- [main] org.reflections.Reflections              : Reflections took 37 ms to scan 1 urls, producing 3 keys and 6 values 
+14:55:21:305  INFO 17236 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 4 keys and 9 values 
+14:55:21:316  INFO 17236 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 3 keys and 10 values 
+14:55:21:318  WARN 17236 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:55:21:327  INFO 17236 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 1 keys and 5 values 
+14:55:21:336  INFO 17236 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+14:55:21:350  INFO 17236 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 2 keys and 8 values 
+14:55:21:352  WARN 17236 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+14:55:21:354  INFO 17236 --- [main] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] RpcClient init label, labels = {module=naming, source=sdk}
+14:55:21:354  INFO 17236 --- [main] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:55:21:354  INFO 17236 --- [main] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:55:21:354  INFO 17236 --- [main] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:55:21:359  INFO 17236 --- [main] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+14:55:22:236  INFO 17236 --- [main] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755500121028_192.168.100.2_59460
+14:55:22:236  INFO 17236 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] Notify connected event to listeners.
+14:55:22:236  INFO 17236 --- [main] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:55:22:242  INFO 17236 --- [main] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1394/0x0000000801438a98
+14:55:22:284  INFO 17236 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+14:55:22:299  INFO 17236 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+14:55:22:367  INFO 17236 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+14:55:22:573  INFO 17236 --- [main] com.hmall.item.DocumentTest              : Started DocumentTest in 11.724 seconds (JVM running for 13.431)
+14:55:22:828  INFO 17236 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] Receive server push request, request = NotifySubscriberRequest, requestId = 14
+14:55:22:840  INFO 17236 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [bf758e98-4cc4-494c-8b4d-0dc1427c4bf9] Ack server push request, request = NotifySubscriberRequest, requestId = 14
+14:55:23:333  WARN 17236 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:55:23:333  WARN 17236 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:55:23:333  WARN 17236 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:55:23:333  WARN 17236 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:55:24:014  INFO 17236 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:55:24:016  INFO 17236 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6af190cf[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:55:24:016  INFO 17236 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755500121028_192.168.100.2_59460
+14:55:24:020  INFO 17236 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@77b63a8e[Running, pool size = 11, active threads = 0, queued tasks = 0, completed tasks = 11]
+15:29:53:843  INFO 14312 --- [main] com.hmall.item.DocumentTest              : Starting DocumentTest using Java 17 on zhangkuan with PID 14312 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+15:29:53:843 DEBUG 14312 --- [main] com.hmall.item.DocumentTest              : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:29:53:843  INFO 14312 --- [main] com.hmall.item.DocumentTest              : The following 1 profile is active: "local"
+15:29:55:044  INFO 14312 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+15:29:58:257  INFO 14312 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:29:58:368  INFO 14312 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:30:00:380  INFO 14312 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:30:00:513  INFO 14312 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 596b7cef-cad0-40ba-bea2-a71499d05781
+15:30:00:578  INFO 14312 --- [main] org.reflections.Reflections              : Reflections took 30 ms to scan 1 urls, producing 3 keys and 6 values 
+15:30:00:633  INFO 14312 --- [main] org.reflections.Reflections              : Reflections took 24 ms to scan 1 urls, producing 4 keys and 9 values 
+15:30:00:645  INFO 14312 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 3 keys and 10 values 
+15:30:00:647  WARN 14312 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+15:30:00:658  INFO 14312 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 1 keys and 5 values 
+15:30:00:669  INFO 14312 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 1 keys and 7 values 
+15:30:00:683  INFO 14312 --- [main] org.reflections.Reflections              : Reflections took 11 ms to scan 1 urls, producing 2 keys and 8 values 
+15:30:00:688  WARN 14312 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+15:30:00:688  INFO 14312 --- [main] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] RpcClient init label, labels = {module=naming, source=sdk}
+15:30:00:692  INFO 14312 --- [main] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:30:00:692  INFO 14312 --- [main] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:30:00:692  INFO 14312 --- [main] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:30:00:694  INFO 14312 --- [main] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+15:30:01:604  INFO 14312 --- [main] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755502200423_192.168.100.2_52510
+15:30:01:604  INFO 14312 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] Notify connected event to listeners.
+15:30:01:604  INFO 14312 --- [main] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:30:01:604  INFO 14312 --- [main] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1394/0x00000008014146b8
+15:30:01:661  INFO 14312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:30:01:661  INFO 14312 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:30:01:702  INFO 14312 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:30:01:911  INFO 14312 --- [main] com.hmall.item.DocumentTest              : Started DocumentTest in 9.767 seconds (JVM running for 11.113)
+15:30:02:174  INFO 14312 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] Receive server push request, request = NotifySubscriberRequest, requestId = 15
+15:30:02:183  INFO 14312 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [596b7cef-cad0-40ba-bea2-a71499d05781] Ack server push request, request = NotifySubscriberRequest, requestId = 15
+15:30:02:765  WARN 14312 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:30:02:765  WARN 14312 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:30:02:766  WARN 14312 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:30:02:766  WARN 14312 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:30:03:454  INFO 14312 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:30:03:454  INFO 14312 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6f61695b[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:30:03:454  INFO 14312 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755502200423_192.168.100.2_52510
+15:30:03:455  INFO 14312 --- [nacos-grpc-client-executor-12] c.a.n.c.remote.client.grpc.GrpcClient    : [1755502200423_192.168.100.2_52510]Ignore complete event,isRunning:false,isAbandon=false
+15:30:03:458  INFO 14312 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@2c64353d[Running, pool size = 13, active threads = 0, queued tasks = 0, completed tasks = 13]
+15:30:29:229  INFO 19088 --- [main] com.hmall.item.DocumentTest              : Starting DocumentTest using Java 17 on zhangkuan with PID 19088 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+15:30:29:233 DEBUG 19088 --- [main] com.hmall.item.DocumentTest              : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:30:29:233  INFO 19088 --- [main] com.hmall.item.DocumentTest              : The following 1 profile is active: "local"
+15:30:30:390  INFO 19088 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+15:30:33:423  INFO 19088 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:30:33:511  INFO 19088 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:30:35:539  INFO 19088 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:30:35:665  INFO 19088 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of a22917b2-8544-46ff-8b38-312b60895d30
+15:30:35:741  INFO 19088 --- [main] org.reflections.Reflections              : Reflections took 48 ms to scan 1 urls, producing 3 keys and 6 values 
+15:30:35:783  INFO 19088 --- [main] org.reflections.Reflections              : Reflections took 26 ms to scan 1 urls, producing 4 keys and 9 values 
+15:30:35:788  INFO 19088 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 3 keys and 10 values 
+15:30:35:788  WARN 19088 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+15:30:35:806  INFO 19088 --- [main] org.reflections.Reflections              : Reflections took 18 ms to scan 1 urls, producing 1 keys and 5 values 
+15:30:35:816  INFO 19088 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 1 keys and 7 values 
+15:30:35:824  INFO 19088 --- [main] org.reflections.Reflections              : Reflections took 4 ms to scan 1 urls, producing 2 keys and 8 values 
+15:30:35:824  WARN 19088 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+15:30:35:824  INFO 19088 --- [main] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] RpcClient init label, labels = {module=naming, source=sdk}
+15:30:35:824  INFO 19088 --- [main] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:30:35:824  INFO 19088 --- [main] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:30:35:824  INFO 19088 --- [main] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:30:35:836  INFO 19088 --- [main] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+15:30:36:676  INFO 19088 --- [main] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755502235492_192.168.100.2_52541
+15:30:36:676  INFO 19088 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] Notify connected event to listeners.
+15:30:36:676  INFO 19088 --- [main] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:30:36:676  INFO 19088 --- [main] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1394/0x00000008014146b8
+15:30:36:707  INFO 19088 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:30:36:724  INFO 19088 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:30:36:755  INFO 19088 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:30:36:937  INFO 19088 --- [main] com.hmall.item.DocumentTest              : Started DocumentTest in 9.377 seconds (JVM running for 10.722)
+15:30:37:334  INFO 19088 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] Receive server push request, request = NotifySubscriberRequest, requestId = 16
+15:30:37:341  INFO 19088 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [a22917b2-8544-46ff-8b38-312b60895d30] Ack server push request, request = NotifySubscriberRequest, requestId = 16
+15:30:58:960  WARN 19088 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:30:58:962  WARN 19088 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:30:58:960  WARN 19088 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:30:58:962  WARN 19088 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:30:59:310  INFO 19088 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:30:59:310  INFO 19088 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@697a9dbf[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:30:59:310  INFO 19088 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755502235492_192.168.100.2_52541
+15:30:59:314  INFO 19088 --- [nacos-grpc-client-executor-12] c.a.n.c.remote.client.grpc.GrpcClient    : [1755502235492_192.168.100.2_52541]Ignore complete event,isRunning:false,isAbandon=false
+15:30:59:315  INFO 19088 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5d467b76[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 13]
+15:32:49:360  INFO 16144 --- [main] com.hmall.item.DocumentTest              : Starting DocumentTest using Java 17 on zhangkuan with PID 16144 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+15:32:49:360 DEBUG 16144 --- [main] com.hmall.item.DocumentTest              : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:32:49:360  INFO 16144 --- [main] com.hmall.item.DocumentTest              : The following 1 profile is active: "local"
+15:32:50:615  INFO 16144 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+15:32:53:783  INFO 16144 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:32:53:878  INFO 16144 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:32:55:896  INFO 16144 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:32:56:042  INFO 16144 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 182aaf25-9976-440b-a2f9-80fdc158b8d5
+15:32:56:117  INFO 16144 --- [main] org.reflections.Reflections              : Reflections took 39 ms to scan 1 urls, producing 3 keys and 6 values 
+15:32:56:153  INFO 16144 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 4 keys and 9 values 
+15:32:56:164  INFO 16144 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 3 keys and 10 values 
+15:32:56:171  WARN 16144 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+15:32:56:181  INFO 16144 --- [main] org.reflections.Reflections              : Reflections took 10 ms to scan 1 urls, producing 1 keys and 5 values 
+15:32:56:188  INFO 16144 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 1 keys and 7 values 
+15:32:56:202  INFO 16144 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 2 keys and 8 values 
+15:32:56:202  WARN 16144 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+15:32:56:202  INFO 16144 --- [main] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] RpcClient init label, labels = {module=naming, source=sdk}
+15:32:56:202  INFO 16144 --- [main] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:32:56:202  INFO 16144 --- [main] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:32:56:202  INFO 16144 --- [main] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:32:56:208  INFO 16144 --- [main] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+15:32:57:043  INFO 16144 --- [main] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755502375868_192.168.100.2_52616
+15:32:57:043  INFO 16144 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] Notify connected event to listeners.
+15:32:57:043  INFO 16144 --- [main] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:32:57:043  INFO 16144 --- [main] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1394/0x00000008014158e0
+15:32:57:085  INFO 16144 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:32:57:093  INFO 16144 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:32:57:127  INFO 16144 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:32:57:316  INFO 16144 --- [main] com.hmall.item.DocumentTest              : Started DocumentTest in 9.636 seconds (JVM running for 10.967)
+15:32:57:631  INFO 16144 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] Receive server push request, request = NotifySubscriberRequest, requestId = 17
+15:32:57:646  INFO 16144 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [182aaf25-9976-440b-a2f9-80fdc158b8d5] Ack server push request, request = NotifySubscriberRequest, requestId = 17
+15:32:58:078  WARN 16144 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:32:58:078  WARN 16144 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:32:58:084  WARN 16144 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:32:58:084  WARN 16144 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:32:58:767  INFO 16144 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:32:58:767  INFO 16144 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@3ebf6a0a[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:32:58:767  INFO 16144 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755502375868_192.168.100.2_52616
+15:32:58:767  INFO 16144 --- [nacos-grpc-client-executor-13] c.a.n.c.remote.client.grpc.GrpcClient    : [1755502375868_192.168.100.2_52616]Ignore complete event,isRunning:false,isAbandon=false
+15:32:58:783  INFO 16144 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@3cf9ad6d[Running, pool size = 14, active threads = 0, queued tasks = 0, completed tasks = 14]
+15:42:17:368  INFO 2368 --- [main] com.hmall.item.DocumentTest              : Starting DocumentTest using Java 17 on zhangkuan with PID 2368 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+15:42:17:368 DEBUG 2368 --- [main] com.hmall.item.DocumentTest              : Running with Spring Boot v2.7.12, Spring v5.3.27
+15:42:17:368  INFO 2368 --- [main] com.hmall.item.DocumentTest              : The following 1 profile is active: "local"
+15:42:18:593  INFO 2368 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+15:42:21:749  INFO 2368 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:42:21:830  INFO 2368 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+15:42:23:839  INFO 2368 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+15:42:23:964  INFO 2368 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38
+15:42:24:050  INFO 2368 --- [main] org.reflections.Reflections              : Reflections took 40 ms to scan 1 urls, producing 3 keys and 6 values 
+15:42:24:087  INFO 2368 --- [main] org.reflections.Reflections              : Reflections took 14 ms to scan 1 urls, producing 4 keys and 9 values 
+15:42:24:094  INFO 2368 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 3 keys and 10 values 
+15:42:24:094  WARN 2368 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+15:42:24:107  INFO 2368 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 1 keys and 5 values 
+15:42:24:120  INFO 2368 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 1 keys and 7 values 
+15:42:24:130  INFO 2368 --- [main] org.reflections.Reflections              : Reflections took 8 ms to scan 1 urls, producing 2 keys and 8 values 
+15:42:24:136  WARN 2368 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+15:42:24:136  INFO 2368 --- [main] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] RpcClient init label, labels = {module=naming, source=sdk}
+15:42:24:136  INFO 2368 --- [main] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+15:42:24:136  INFO 2368 --- [main] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+15:42:24:136  INFO 2368 --- [main] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+15:42:24:145  INFO 2368 --- [main] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+15:42:25:320  INFO 2368 --- [main] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755502944140_192.168.100.2_52923
+15:42:25:321  INFO 2368 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Notify connected event to listeners.
+15:42:25:321  INFO 2368 --- [main] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+15:42:25:322  INFO 2368 --- [main] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1394/0x00000008014158e0
+15:42:25:371  INFO 2368 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+15:42:25:374  INFO 2368 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+15:42:25:423  INFO 2368 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+15:42:25:627  INFO 2368 --- [main] com.hmall.item.DocumentTest              : Started DocumentTest in 9.895 seconds (JVM running for 11.192)
+15:42:25:917  INFO 2368 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Receive server push request, request = NotifySubscriberRequest, requestId = 18
+15:42:25:929  INFO 2368 --- [nacos-grpc-client-executor-8] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Ack server push request, request = NotifySubscriberRequest, requestId = 18
+15:44:24:796  INFO 2368 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Receive server push request, request = ClientDetectionRequest, requestId = 19
+15:44:24:796  INFO 2368 --- [nacos-grpc-client-executor-11] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Ack server push request, request = ClientDetectionRequest, requestId = 19
+15:44:24:796 ERROR 2368 --- [com.alibaba.nacos.client.naming.updater.0] com.alibaba.nacos.common.remote.client   : Send request fail, request = ServiceQueryRequest{headers={}, requestId='null'}, retryTimes = 0, errorMessage = java.util.concurrent.TimeoutException: Waited 3000 milliseconds (plus 37164 milliseconds, 217300 nanoseconds delay) for com.alibaba.nacos.shaded.io.grpc.stub.ClientCalls$GrpcFuture@6979f7e3[status=PENDING, info=[GrpcFuture{clientCall={delegate={delegate=ClientCallImpl{method=MethodDescriptor{fullMethodName=Request/request, type=UNARY, idempotent=false, safe=false, sampledToLocalTracing=true, requestMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@27c47d99, responseMarshaller=com.alibaba.nacos.shaded.io.grpc.protobuf.lite.ProtoLiteUtils$MessageMarshaller@48ca448b, schemaDescriptor=com.alibaba.nacos.api.grpc.auto.RequestGrpc$RequestMethodDescriptorSupplier@6eaa749e}}}}}]]
+15:44:24:800  INFO 2368 --- [nacos-grpc-client-executor-11] c.a.n.c.remote.client.grpc.GrpcClient    : [1755502944140_192.168.100.2_52923]Ignore complete event,isRunning:false,isAbandon=false
+15:44:24:809  INFO 2368 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Server healthy check fail, currentConnection = 1755502944140_192.168.100.2_52923
+15:44:24:809  INFO 2368 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+15:44:24:829  WARN 2368 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+15:44:24:829  WARN 2368 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+15:44:24:829  WARN 2368 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+15:44:24:829  WARN 2368 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+15:44:24:947 ERROR 2368 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Send request fail, request = SubscribeServiceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 0, errorMessage = Client not connected, current status:UNHEALTHY
+15:44:24:984  INFO 2368 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Success to connect a server [192.168.100.130:8848], connectionId = 1755503063884_192.168.100.2_52991
+15:44:24:984  INFO 2368 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Abandon prev connection, server is 192.168.100.130:8848, connectionId is 1755502944140_192.168.100.2_52923
+15:44:24:984  INFO 2368 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1755502944140_192.168.100.2_52923
+15:44:24:987  INFO 2368 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Notify disconnected event to listeners
+15:44:24:987  INFO 2368 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Notify connected event to listeners.
+15:44:24:987  INFO 2368 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [0d86bfe7-b06f-4625-b0f0-8e5b12d9cd38] Server check success, currentServer is 192.168.100.130:8848 
+15:44:25:048 ERROR 2368 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Send request fail, request = SubscribeServiceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:UNHEALTHY
+15:44:25:396  INFO 2368 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+15:44:25:396  INFO 2368 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6a90617c[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+15:44:25:396  INFO 2368 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755503063884_192.168.100.2_52991
+15:44:25:396  INFO 2368 --- [nacos-grpc-client-executor-19] c.a.n.c.remote.client.grpc.GrpcClient    : [1755503063884_192.168.100.2_52991]Ignore complete event,isRunning:false,isAbandon=false
+15:44:25:399  INFO 2368 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@1b40104e[Running, pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 20]
+16:02:12:421  INFO 16224 --- [main] com.hmall.item.DocumentTest              : Starting DocumentTest using Java 17 on zhangkuan with PID 16224 (started by kuanzhang in D:\java\springCloudLearn\newnewnewnewnewnew\hmall\item-service)
+16:02:12:422 DEBUG 16224 --- [main] com.hmall.item.DocumentTest              : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:02:12:423  INFO 16224 --- [main] com.hmall.item.DocumentTest              : The following 1 profile is active: "local"
+16:02:13:692  INFO 16224 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e8e92bc0-0189-3910-a174-7abd376b9dde
+16:02:16:835  INFO 16224 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+16:02:16:937  INFO 16224 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:02:18:963  INFO 16224 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+16:02:19:090  INFO 16224 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of f14efa77-7365-45e0-aace-b7c91cb19053
+16:02:19:169  INFO 16224 --- [main] org.reflections.Reflections              : Reflections took 37 ms to scan 1 urls, producing 3 keys and 6 values 
+16:02:19:202  INFO 16224 --- [main] org.reflections.Reflections              : Reflections took 16 ms to scan 1 urls, producing 4 keys and 9 values 
+16:02:19:216  INFO 16224 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 3 keys and 10 values 
+16:02:19:219  WARN 16224 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+16:02:19:231  INFO 16224 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 1 keys and 5 values 
+16:02:19:247  INFO 16224 --- [main] org.reflections.Reflections              : Reflections took 13 ms to scan 1 urls, producing 1 keys and 7 values 
+16:02:19:258  INFO 16224 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 2 keys and 8 values 
+16:02:19:260  WARN 16224 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+16:02:19:262  INFO 16224 --- [main] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] RpcClient init label, labels = {module=naming, source=sdk}
+16:02:19:264  INFO 16224 --- [main] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+16:02:19:264  INFO 16224 --- [main] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+16:02:19:265  INFO 16224 --- [main] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+16:02:19:267  INFO 16224 --- [main] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Try to connect to server on start up, server: {serverIp = '192.168.100.130', server main port = 8848}
+16:02:20:262  INFO 16224 --- [main] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Success to connect to server [192.168.100.130:8848] on start up, connectionId = 1755504139083_192.168.100.2_62616
+16:02:20:263  INFO 16224 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Notify connected event to listeners.
+16:02:20:263  INFO 16224 --- [main] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+16:02:20:264  INFO 16224 --- [main] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1394/0x0000000801437aa8
+16:02:20:312  INFO 16224 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:02:20:315  INFO 16224 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:02:20:355  INFO 16224 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:02:20:541  INFO 16224 --- [main] com.hmall.item.DocumentTest              : Started DocumentTest in 9.846 seconds (JVM running for 11.164)
+16:02:20:862  INFO 16224 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Receive server push request, request = NotifySubscriberRequest, requestId = 20
+16:02:20:875  INFO 16224 --- [nacos-grpc-client-executor-7] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Ack server push request, request = NotifySubscriberRequest, requestId = 20
+16:02:50:476  INFO 16224 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Receive server push request, request = ClientDetectionRequest, requestId = 21
+16:02:50:476  INFO 16224 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Ack server push request, request = ClientDetectionRequest, requestId = 21
+16:02:50:483  INFO 16224 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Server healthy check fail, currentConnection = 1755504139083_192.168.100.2_62616
+16:02:50:483  INFO 16224 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+16:02:50:484  INFO 16224 --- [nacos-grpc-client-executor-10] c.a.n.c.remote.client.grpc.GrpcClient    : [1755504139083_192.168.100.2_62616]Ignore complete event,isRunning:false,isAbandon=false
+16:02:50:508  WARN 16224 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+16:02:50:509  WARN 16224 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+16:02:50:508  WARN 16224 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+16:02:50:511  WARN 16224 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+16:02:50:609  INFO 16224 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Success to connect a server [192.168.100.130:8848], connectionId = 1755504169532_192.168.100.2_62631
+16:02:50:609  INFO 16224 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Abandon prev connection, server is 192.168.100.130:8848, connectionId is 1755504139083_192.168.100.2_62616
+16:02:50:609  INFO 16224 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : Close current connection 1755504139083_192.168.100.2_62616
+16:02:50:612  INFO 16224 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Notify disconnected event to listeners
+16:02:50:613  INFO 16224 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [f14efa77-7365-45e0-aace-b7c91cb19053] Notify connected event to listeners.
+16:02:50:624 ERROR 16224 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Send request fail, request = SubscribeServiceRequest{headers={app=unknown}, requestId='null'}, retryTimes = 0, errorMessage = Client not connected, current status:UNHEALTHY
+16:02:50:970  INFO 16224 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+16:02:50:971  INFO 16224 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@15f3f7c4[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+16:02:50:971  INFO 16224 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1755504169532_192.168.100.2_62631
+16:02:50:976  INFO 16224 --- [nacos-grpc-client-executor-17] c.a.n.c.remote.client.grpc.GrpcClient    : [1755504169532_192.168.100.2_62631]Ignore complete event,isRunning:false,isAbandon=false
+16:02:50:980  INFO 16224 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@66f75032[Running, pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 18]
